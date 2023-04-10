@@ -1,0 +1,192 @@
+Array
+(
+    [0] => Array
+        (
+            [name] => ft4wjx_3ANFC.jpg
+            [type] => image/jpeg
+            [size] => 106088
+            [file] => uploads/ft4wjx_3ANFC.jpg
+            [data] => Array
+                (
+                    [readerForce] => 1
+                    [url] => uploads/ft4wjx_3ANFC.jpg
+                    [date] => 2021-10-08 11:07:13
+                    [isMain] => 1
+                    [listProps] => Array
+                        (
+                            [id] => 4
+                        )
+
+                )
+
+        )
+
+)
+
+Array
+(
+    [0] => Array
+        (
+            [name] => ft4wjx_3ANFC.jpg
+            [type] => image/jpeg
+            [size] => 106088
+            [file] => uploads/ft4wjx_3ANFC.jpg
+            [data] => Array
+                (
+                    [readerForce] => 1
+                    [url] => uploads/ft4wjx_3ANFC.jpg
+                    [date] => 2021-10-08 11:07:13
+                    [isMain] => 1
+                    [listProps] => Array
+                        (
+                            [id] => 4
+                        )
+
+                )
+
+        )
+
+)
+
+Array
+(
+    [0] => Array
+        (
+            [name] => teste.webp
+            [type] => image/webp
+            [size] => 37922
+            [file] => http://site.test/gallery/uploads/teste.webp
+            [data] => Array
+                (
+                    [readerForce] => 1
+                    [url] => http://site.test/gallery/uploads/teste.webp
+                    [date] => 2021-10-08 12:35:25
+                    [isMain] => 0
+                    [listProps] => Array
+                        (
+                            [id] => 10
+                        )
+
+                )
+
+        )
+
+)
+
+Array
+(
+    [0] => Array
+        (
+            [name] => teste.webp
+            [type] => image/webp
+            [size] => 37922
+            [file] => http://site.test/gallery/uploads/teste.webp
+            [data] => Array
+                (
+                    [readerForce] => 1
+                    [url] => http://site.test/gallery/uploads/teste.webp
+                    [date] => 2021-10-08 12:35:25
+                    [isMain] => 0
+                    [listProps] => Array
+                        (
+                            [id] => 10
+                        )
+
+                )
+
+        )
+
+    [1] => Array
+        (
+            [name] => _l5LsJ1w9cVH.jpg
+            [type] => image/jpeg
+            [size] => 125069
+            [file] => uploads/_l5LsJ1w9cVH.jpg
+            [data] => Array
+                (
+                    [readerForce] => 1
+                    [url] => uploads/_l5LsJ1w9cVH.jpg
+                    [date] => 2021-10-08 12:45:58
+                    [isMain] => 0
+                    [listProps] => Array
+                        (
+                            [id] => 11
+                        )
+
+                )
+
+        )
+
+)
+
+Array
+(
+    [0] => Array
+        (
+            [name] => teste.webp
+            [type] => image/webp
+            [size] => 37922
+            [file] => http://site.test/gallery/uploads/teste.webp
+            [data] => Array
+                (
+                    [readerForce] => 1
+                    [url] => http://site.test/gallery/uploads/teste.webp
+                    [date] => 2021-10-08 12:35:25
+                    [isMain] => 0
+                    [listProps] => Array
+                        (
+                            [id] => 10
+                        )
+
+                )
+
+        )
+
+    [1] => Array
+        (
+            [name] => _l5LsJ1w9cVH.jpg
+            [type] => image/jpeg
+            [size] => 125069
+            [file] => uploads/_l5LsJ1w9cVH.jpg
+            [data] => Array
+                (
+                    [readerForce] => 1
+                    [url] => uploads/_l5LsJ1w9cVH.jpg
+                    [date] => 2021-10-08 12:45:58
+                    [isMain] => 0
+                    [listProps] => Array
+                        (
+                            [id] => 11
+                        )
+
+                )
+
+        )
+
+)
+
+Array
+(
+    [0] => Array
+        (
+            [name] => Google-Maps.png
+            [type] => image/png
+            [size] => 1176110
+            [file] => uploads/Google-Maps.png
+            [data] => Array
+                (
+                    [readerForce] => 1
+                    [url] => uploads/Google-Maps.png
+                    [date] => 2021-10-08 12:52:49
+                    [isMain] => 0
+                    [listProps] => Array
+                        (
+                            [id] => 12
+                        )
+
+                )
+
+        )
+
+)
+
