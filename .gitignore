@@ -85,9 +85,9 @@ phpunit
 # Composer
 #-------------------------
 vendor/
-galeria/
+/galeria/
 .env
-app/config/
+/app/config/
 #-------------------------
 # IDE / Development Files
 #-------------------------
