@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    var url_site = "http://srvtgm/"
+    var url_site = "http://site.web/"
         // enable fileuploader plugin
     var $fileuploader = $('input.gallery_media').fileuploader({
         limit: 100,

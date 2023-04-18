@@ -64,6 +64,7 @@ writable/debugbar/*
 
 php_errors.log
 
+
 #-------------------------
 # User Guide Temp Files
 #-------------------------
@@ -84,7 +85,9 @@ phpunit
 # Composer
 #-------------------------
 vendor/
-
+galeria/
+.env
+app/config/
 #-------------------------
 # IDE / Development Files
 #-------------------------

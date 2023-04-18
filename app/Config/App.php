@@ -23,7 +23,7 @@ class App extends BaseConfig
 	 *
 	 * @var string
 	 */
-	public $baseURL = 'http://srvtgm/';
+	public $baseURL = 'http://site.web/';
 
 	/**
 	 * --------------------------------------------------------------------------

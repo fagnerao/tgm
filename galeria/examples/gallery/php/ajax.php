@@ -1,7 +1,7 @@
 <?php
     include('../../../src/php/class.fileuploader.php');
 	// mysqli connection
-	$DB = mysqli_connect('localhost', 'super', 'Xw06si@dm', 'intranet');
+	$DB = mysqli_connect('localhost', 'root', '', 'site');
 
 	$uploadDir = '/uploads/';
 	$realUploadDir = '../../../../uploads/';
