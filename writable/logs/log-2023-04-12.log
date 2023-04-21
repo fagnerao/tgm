@@ -1,0 +1,14 @@
+CRITICAL - 2023-04-12 10:43:37 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+ERROR - 2023-04-12 10:43:38 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2023-04-12 10:43:38 --> Unable to connect to the database.
+#0 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Model.php(247): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\BaseModel.php(624): CodeIgniter\Model->doFirst()
+#4 C:\wamp64\www\site\app\Models\Front\siteConfig_model.php(12): CodeIgniter\BaseModel->first()
+#5 C:\wamp64\www\site\app\Controllers\Front\Home.php(23): App\Models\Front\siteConfig_model->getDados()
+#6 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Home->index()
+#7 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Home))
+#8 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}

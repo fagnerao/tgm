@@ -1,0 +1,47 @@
+ERROR - 2022-02-27 10:33:39 --> mysqli_sql_exception: Table 'site.shop_categorias' doesn't exist in C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\alaragon\www\site\ci4\app\Models\Front\Shop\GetDados_model.php(63): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\alaragon\www\site\ci4\app\Controllers\Front\Pagina.php(31): App\Models\Front\Shop\GetDados_model->getMenu()
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Pagina->index()
+#7 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Pagina))
+#8 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-27 10:33:39 --> Table 'site.shop_categorias' doesn't exist
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\alaragon\www\site\ci4\app\Models\Front\Shop\GetDados_model.php(63): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\alaragon\www\site\ci4\app\Controllers\Front\Pagina.php(31): App\Models\Front\Shop\GetDados_model->getMenu()
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Pagina->index()
+#7 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Pagina))
+#8 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-27 10:34:20 --> Undefined variable: menuProdutos
+#0 C:\alaragon\www\site\ci4\app\Views\front\shop\index.php(134): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\alaragon\\www...', 134, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\alaragon\\www...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(236): CodeIgniter\View\View->render('front/shop/inde...', Array, true)
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('front/pagina/in...', Array, true)
+#5 C:\alaragon\www\site\ci4\app\Controllers\Front\Pagina.php(40): view('front/pagina/in...', Array)
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Pagina->index()
+#7 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Pagina))
+#8 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-27 10:35:08 --> Arquivo inválido: front/index.php
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front/index.php')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(236): CodeIgniter\View\View->render('front/index.php', Array, true)
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('front/pagina/in...', Array, true)
+#3 C:\alaragon\www\site\ci4\app\Controllers\Front\Pagina.php(40): view('front/pagina/in...', Array)
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Pagina->index()
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Pagina))
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

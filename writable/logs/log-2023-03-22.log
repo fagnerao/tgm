@@ -1,0 +1,36 @@
+CRITICAL - 2023-03-22 16:26:56 --> Call to undefined function App\Controllers\Admin\pageAutorize()
+#0 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Admin\Painel->index()
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Painel))
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-03-22 16:51:09 --> Call to undefined function App\Controllers\Front\setMsgFront()
+#0 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\SigninController->loginAuth()
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\SigninController))
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-03-22 18:05:29 --> Call to undefined function App\Controllers\Front\setMsgFront()
+#0 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\SigninController->loginAuth()
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\SigninController))
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-03-22 18:06:27 --> Call to undefined function App\Controllers\Front\setMsgFront()
+#0 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\SigninController->loginAuth()
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\SigninController))
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-03-22 18:07:26 --> Call to undefined function App\Controllers\Front\setMsgFront()
+#0 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\SigninController->loginAuth()
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\SigninController))
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-03-22 18:07:43 --> Call to undefined function App\Controllers\Front\setMsgFront()
+#0 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\SigninController->loginAuth()
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\SigninController))
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}

@@ -1,0 +1,100 @@
+CRITICAL - 2021-10-22 09:43:21 --> Call to undefined method App\Models\Front\siteConfig_model::getLinks
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Pesquisa.php(17): CodeIgniter\Model->__call('getLinks', Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Pesquisa->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Pesquisa))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-22 09:45:57 --> Call to undefined method App\Models\Front\siteConfig_model::getLinks
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Pesquisa.php(17): CodeIgniter\Model->__call('getLinks', Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Pesquisa->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Pesquisa))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-22 09:52:24 --> Cannot declare class App\Controllers\Front\Home, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-10-22 09:53:38 --> Cannot declare class App\Controllers\Front\Home, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-10-22 09:54:55 --> Undefined variable: id
+#0 C:\alaragon\www\site\ci4\app\Models\Front\Shop\GetDados_model.php(103): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\alaragon\\www...', 103, Array)
+#1 C:\alaragon\www\site\ci4\app\Controllers\Front\Pesquisa.php(24): App\Models\Front\Shop\GetDados_model->getPesquisa('iphone')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Pesquisa->index()
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Pesquisa))
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-10-22 09:55:37 --> mysqli_sql_exception: Unknown column 'texto' in 'where clause' in C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `shop_pr...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `shop_pr...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `shop_pr...')
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `shop_pr...', Array, false)
+#4 C:\alaragon\www\site\ci4\app\Models\Front\Shop\GetDados_model.php(106): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\alaragon\www\site\ci4\app\Controllers\Front\Pesquisa.php(24): App\Models\Front\Shop\GetDados_model->getPesquisa('iphone')
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Pesquisa->index()
+#7 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Pesquisa))
+#8 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-10-22 09:55:37 --> Unknown column 'texto' in 'where clause'
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `shop_pr...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `shop_pr...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `shop_pr...')
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `shop_pr...', Array, false)
+#4 C:\alaragon\www\site\ci4\app\Models\Front\Shop\GetDados_model.php(106): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\alaragon\www\site\ci4\app\Controllers\Front\Pesquisa.php(24): App\Models\Front\Shop\GetDados_model->getPesquisa('iphone')
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Pesquisa->index()
+#7 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Pesquisa))
+#8 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-10-22 09:56:00 --> mysqli_sql_exception: Unknown column 'titulo' in 'where clause' in C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `shop_pr...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `shop_pr...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `shop_pr...')
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `shop_pr...', Array, false)
+#4 C:\alaragon\www\site\ci4\app\Models\Front\Shop\GetDados_model.php(106): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\alaragon\www\site\ci4\app\Controllers\Front\Pesquisa.php(24): App\Models\Front\Shop\GetDados_model->getPesquisa('iphone')
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Pesquisa->index()
+#7 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Pesquisa))
+#8 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-10-22 09:56:00 --> Unknown column 'titulo' in 'where clause'
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `shop_pr...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `shop_pr...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `shop_pr...')
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `shop_pr...', Array, false)
+#4 C:\alaragon\www\site\ci4\app\Models\Front\Shop\GetDados_model.php(106): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\alaragon\www\site\ci4\app\Controllers\Front\Pesquisa.php(24): App\Models\Front\Shop\GetDados_model->getPesquisa('iphone')
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Pesquisa->index()
+#7 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Pesquisa))
+#8 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-10-22 09:56:38 --> Undefined offset: 0
+#0 C:\alaragon\www\site\ci4\app\Views\front\shop\pesquisa.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\alaragon\\www...', 8, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\alaragon\\www...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('front/shop/pesq...', Array, true)
+#4 C:\alaragon\www\site\ci4\app\Controllers\Front\Pesquisa.php(31): view('front/shop/pesq...', Array)
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Pesquisa->index()
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Pesquisa))
+#7 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-22 09:58:06 --> Undefined variable: pesquisa
+#0 C:\alaragon\www\site\ci4\app\Views\front\shop\pesquisa.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\alaragon\\www...', 8, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\alaragon\\www...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('front/shop/pesq...', Array, true)
+#4 C:\alaragon\www\site\ci4\app\Controllers\Front\Pesquisa.php(32): view('front/shop/pesq...', Array)
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Pesquisa->index()
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Pesquisa))
+#7 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}

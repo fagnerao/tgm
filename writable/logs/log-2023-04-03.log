@@ -1,0 +1,43 @@
+CRITICAL - 2023-04-03 10:45:16 --> Undefined variable: data
+#0 C:\wamp64\www\site\app\Controllers\Front\Documentos.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\s...', 51, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Documentos->detalhes()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Documentos))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-03 10:45:58 --> Undefined variable: dados
+#0 C:\wamp64\www\site\app\Views\front\intranet\index.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\s...', 6, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\wamp64\\www\\s...')
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\View\View.php(236): CodeIgniter\View\View->render('front/intranet/...', Array, true)
+#4 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('front/documento...', Array, true)
+#5 C:\wamp64\www\site\app\Controllers\Front\Documentos.php(52): view('front/documento...', Array)
+#6 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Documentos->detalhes()
+#7 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Documentos))
+#8 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-03 10:49:27 --> Call to undefined function base_ul()
+#0 C:\wamp64\www\site\vendor\codeigniter4\framework\system\View\View.php(220): include()
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('front/documento...', Array, true)
+#3 C:\wamp64\www\site\app\Controllers\Front\Documentos.php(56): view('front/documento...', Array)
+#4 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Documentos->detalhes()
+#5 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Documentos))
+#6 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-04-03 12:20:12 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-03 12:24:14 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

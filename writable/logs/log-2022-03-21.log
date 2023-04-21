@@ -1,0 +1,108 @@
+ERROR - 2022-03-21 09:25:11 --> mysqli_sql_exception: Table 'site.shop_categorias' doesn't exist in C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\alaragon\www\site\ci4\app\Models\Admin\Shop\Categorias_model.php(16): CodeIgniter\BaseModel->findAll()
+#7 C:\alaragon\www\site\ci4\app\Controllers\Admin\Shop\Categorias.php(13): App\Models\Admin\Shop\Categorias_model->getDados()
+#8 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Admin\Shop\Categorias->index()
+#9 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Shop\Categorias))
+#10 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-03-21 09:25:11 --> Table 'site.shop_categorias' doesn't exist
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\alaragon\www\site\ci4\app\Models\Admin\Shop\Categorias_model.php(16): CodeIgniter\BaseModel->findAll()
+#7 C:\alaragon\www\site\ci4\app\Controllers\Admin\Shop\Categorias.php(13): App\Models\Admin\Shop\Categorias_model->getDados()
+#8 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Admin\Shop\Categorias->index()
+#9 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Shop\Categorias))
+#10 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-03-21 09:25:19 --> mysqli_sql_exception: Table 'site.shop_produtos' doesn't exist in C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `shop_pr...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `shop_pr...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `shop_pr...')
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `shop_pr...', Array, false)
+#4 C:\alaragon\www\site\ci4\app\Models\Admin\Shop\Produtos_model.php(39): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\alaragon\www\site\ci4\app\Controllers\Admin\Shop\Produtos.php(15): App\Models\Admin\Shop\Produtos_model->getDados()
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Admin\Shop\Produtos->index()
+#7 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Shop\Produtos))
+#8 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-03-21 09:25:19 --> Table 'site.shop_produtos' doesn't exist
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `shop_pr...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `shop_pr...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `shop_pr...')
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `shop_pr...', Array, false)
+#4 C:\alaragon\www\site\ci4\app\Models\Admin\Shop\Produtos_model.php(39): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\alaragon\www\site\ci4\app\Controllers\Admin\Shop\Produtos.php(15): App\Models\Admin\Shop\Produtos_model->getDados()
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Admin\Shop\Produtos->index()
+#7 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Shop\Produtos))
+#8 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-03-21 09:25:23 --> mysqli_sql_exception: Table 'site.shop_atributos' doesn't exist in C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\alaragon\www\site\ci4\app\Models\Admin\Shop\Atributos_model.php(16): CodeIgniter\BaseModel->findAll()
+#7 C:\alaragon\www\site\ci4\app\Controllers\Admin\Shop\Atributos.php(15): App\Models\Admin\Shop\Atributos_model->getDados()
+#8 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Admin\Shop\Atributos->index()
+#9 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Shop\Atributos))
+#10 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-03-21 09:25:23 --> Table 'site.shop_atributos' doesn't exist
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\alaragon\www\site\ci4\app\Models\Admin\Shop\Atributos_model.php(16): CodeIgniter\BaseModel->findAll()
+#7 C:\alaragon\www\site\ci4\app\Controllers\Admin\Shop\Atributos.php(15): App\Models\Admin\Shop\Atributos_model->getDados()
+#8 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Admin\Shop\Atributos->index()
+#9 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Shop\Atributos))
+#10 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-03-21 09:58:24 --> mysqli_sql_exception: Table 'site.shop_categorias' doesn't exist in C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\alaragon\www\site\ci4\app\Models\Front\Shop\GetDados_model.php(63): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Categoria.php(40): App\Models\Front\Shop\GetDados_model->getMenu()
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Categoria->todas()
+#7 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Categoria))
+#8 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-03-21 09:58:24 --> Table 'site.shop_categorias' doesn't exist
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\alaragon\www\site\ci4\app\Models\Front\Shop\GetDados_model.php(63): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Categoria.php(40): App\Models\Front\Shop\GetDados_model->getMenu()
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Categoria->todas()
+#7 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Categoria))
+#8 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}

@@ -1,0 +1,117 @@
+CRITICAL - 2021-11-23 12:49:41 --> Undefined variable: servicos
+#0 C:\alaragon\www\site\ci4\app\Views\front\site\content.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\alaragon\\www...', 73, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\alaragon\\www...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('front/site/cont...', Array, true)
+#4 C:\alaragon\www\site\ci4\app\Controllers\Front\Home.php(35): view('front/site/cont...', Array)
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Home->index()
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Home))
+#7 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-23 12:49:42 --> Undefined variable: servicos
+#0 C:\alaragon\www\site\ci4\app\Views\front\site\content.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\alaragon\\www...', 73, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\alaragon\\www...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('front/site/cont...', Array, true)
+#4 C:\alaragon\www\site\ci4\app\Controllers\Front\Home.php(35): view('front/site/cont...', Array)
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Home->index()
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Home))
+#7 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-23 12:49:59 --> Cannot declare class Myth\Auth\Config\Auth, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-23 12:51:32 --> Cannot declare class Myth\Auth\Config\Auth1, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-23 13:03:10 --> Undefined variable: dados
+#0 C:\alaragon\www\site\ci4\vendor\myth\auth\src\Views\layout.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\alaragon\\www...', 12, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\alaragon\\www...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(236): CodeIgniter\View\View->render('Myth\\Auth\\Views...', Array, true)
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Myth\\Auth\\Views...', Array, true)
+#5 C:\alaragon\www\site\ci4\vendor\myth\auth\src\Controllers\AuthController.php(55): view('Myth\\Auth\\Views...', Array)
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): Myth\Auth\Controllers\AuthController->login()
+#7 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#8 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-11-23 13:15:24 --> Undefined variable: dados
+#0 C:\alaragon\www\site\ci4\vendor\myth\auth\src\Views\layout.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\alaragon\\www...', 12, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\alaragon\\www...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(236): CodeIgniter\View\View->render('Myth\\Auth\\Views...', Array, true)
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Myth\\Auth\\Views...', Array, true)
+#5 C:\alaragon\www\site\ci4\vendor\myth\auth\src\Controllers\AuthController.php(80): view('Myth\\Auth\\Views...', Array)
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): Myth\Auth\Controllers\AuthController->login()
+#7 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#8 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-11-23 13:15:54 --> Undefined variable: config
+#0 C:\alaragon\www\site\ci4\vendor\myth\auth\src\Views\login.php(1): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\alaragon\\www...', 1, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\alaragon\\www...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Myth\\Auth\\Views...', Array, true)
+#4 C:\alaragon\www\site\ci4\vendor\myth\auth\src\Controllers\AuthController.php(80): view('Myth\\Auth\\Views...', Array)
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): Myth\Auth\Controllers\AuthController->login()
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#7 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-23 13:16:54 --> syntax error, unexpected '?>'
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Myth\\Auth\\Views...', Array, true)
+#2 C:\alaragon\www\site\ci4\vendor\myth\auth\src\Controllers\AuthController.php(80): view('Myth\\Auth\\Views...', Array)
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): Myth\Auth\Controllers\AuthController->login()
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-23 13:17:03 --> Undefined variable: config
+#0 C:\alaragon\www\site\ci4\vendor\myth\auth\src\Views\login.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\alaragon\\www...', 18, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\alaragon\\www...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Myth\\Auth\\Views...', Array, true)
+#4 C:\alaragon\www\site\ci4\vendor\myth\auth\src\Controllers\AuthController.php(80): view('Myth\\Auth\\Views...', Array)
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): Myth\Auth\Controllers\AuthController->login()
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#7 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-23 13:17:59 --> Undefined variable: dados
+#0 C:\alaragon\www\site\ci4\vendor\myth\auth\src\Views\layout.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\alaragon\\www...', 12, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\alaragon\\www...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(236): CodeIgniter\View\View->render('Myth\\Auth\\Views...', Array, true)
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Myth\\Auth\\Views...', Array, true)
+#5 C:\alaragon\www\site\ci4\vendor\myth\auth\src\Controllers\AuthController.php(80): view('Myth\\Auth\\Views...', Array)
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): Myth\Auth\Controllers\AuthController->login()
+#7 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#8 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-11-23 13:26:58 --> Undefined variable: dados
+#0 C:\alaragon\www\site\ci4\app\Views\front\shop\index.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\alaragon\\www...', 12, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\alaragon\\www...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(236): CodeIgniter\View\View->render('front/shop/inde...', Array, true)
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Myth\\Auth\\Views...', Array, true)
+#5 C:\alaragon\www\site\ci4\vendor\myth\auth\src\Controllers\AuthController.php(170): view('Myth\\Auth\\Views...', Array)
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): Myth\Auth\Controllers\AuthController->register()
+#7 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#8 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-11-23 13:27:36 --> syntax error, unexpected ']', expecting ')'
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(274): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\alaragon\\www...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Myth\\Auth\\Contr...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Myth\\Auth\\Contr...')
+#3 [internal function]: spl_autoload_call('Myth\\Auth\\Contr...')
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(894): class_exists('\\Myth\\Auth\\Cont...', true)
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(418): CodeIgniter\CodeIgniter->startController()
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

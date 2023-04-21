@@ -1,0 +1,1666 @@
+CRITICAL - 2021-10-20 07:36:48 --> Undefined variable: menuProdutos
+#0 C:\alaragon\www\site\ci4\app\Views\front\loja\index.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\alaragon\\www...', 77, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\alaragon\\www...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(236): CodeIgniter\View\View->render('front/loja/inde...', Array, true)
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('front/loja/cont...', Array, true)
+#5 C:\alaragon\www\site\ci4\app\Controllers\Front\Home.php(27): view('front/loja/cont...', Array)
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Home->index()
+#7 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Home))
+#8 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-10-20 07:38:08 --> Undefined variable: model_prodMenu
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Home.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\alaragon\\www...', 19, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Home->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Home))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 07:38:29 --> Undefined variable: model_prodMenu
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Home.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\alaragon\\www...', 19, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Home->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Home))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 07:45:30 --> Undefined variable: model_prodMenu
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Home.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\alaragon\\www...', 19, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Home->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Home))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 07:45:54 --> Undefined variable: total_itens
+#0 C:\alaragon\www\site\ci4\app\Views\front\loja\index.php(101): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\alaragon\\www...', 101, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\alaragon\\www...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(236): CodeIgniter\View\View->render('front/loja/inde...', Array, true)
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('front/loja/cont...', Array, true)
+#5 C:\alaragon\www\site\ci4\app\Controllers\Front\Home.php(33): view('front/loja/cont...', Array)
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Home->index()
+#7 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Home))
+#8 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-10-20 07:46:26 --> Undefined variable: total_itens
+#0 C:\alaragon\www\site\ci4\app\Views\front\loja\index.php(127): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\alaragon\\www...', 127, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\alaragon\\www...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(236): CodeIgniter\View\View->render('front/loja/inde...', Array, true)
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('front/loja/cont...', Array, true)
+#5 C:\alaragon\www\site\ci4\app\Controllers\Front\Home.php(33): view('front/loja/cont...', Array)
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Home->index()
+#7 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Home))
+#8 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-10-20 07:46:42 --> Class 'IonAuth' not found
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(220): include()
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(236): CodeIgniter\View\View->render('front/loja/inde...', Array, true)
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('front/loja/cont...', Array, true)
+#4 C:\alaragon\www\site\ci4\app\Controllers\Front\Home.php(33): view('front/loja/cont...', Array)
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Home->index()
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Home))
+#7 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-20 07:50:15 --> syntax error, unexpected '}', expecting end of file
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(236): CodeIgniter\View\View->render('front/loja/inde...', Array, true)
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('front/loja/cont...', Array, true)
+#3 C:\alaragon\www\site\ci4\app\Controllers\Front\Home.php(33): view('front/loja/cont...', Array)
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Home->index()
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Home))
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-20 07:50:51 --> Undefined variable: auth
+#0 C:\alaragon\www\site\ci4\app\Views\front\loja\index.php(154): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\alaragon\\www...', 154, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\alaragon\\www...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(236): CodeIgniter\View\View->render('front/loja/inde...', Array, true)
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('front/loja/cont...', Array, true)
+#5 C:\alaragon\www\site\ci4\app\Controllers\Front\Home.php(33): view('front/loja/cont...', Array)
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Home->index()
+#7 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Home))
+#8 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-10-20 07:51:03 --> Undefined variable: auth
+#0 C:\alaragon\www\site\ci4\app\Views\front\loja\index.php(154): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\alaragon\\www...', 154, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\alaragon\\www...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(236): CodeIgniter\View\View->render('front/loja/inde...', Array, true)
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('front/loja/cont...', Array, true)
+#5 C:\alaragon\www\site\ci4\app\Controllers\Front\Home.php(33): view('front/loja/cont...', Array)
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Home->index()
+#7 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Home))
+#8 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-10-20 07:51:37 --> Undefined variable: auth
+#0 C:\alaragon\www\site\ci4\app\Views\front\loja\index.php(154): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\alaragon\\www...', 154, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\alaragon\\www...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(236): CodeIgniter\View\View->render('front/loja/inde...', Array, true)
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('front/loja/cont...', Array, true)
+#5 C:\alaragon\www\site\ci4\app\Controllers\Front\Home.php(34): view('front/loja/cont...', Array)
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Home->index()
+#7 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Home))
+#8 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-10-20 07:54:22 --> Undefined variable: auth
+#0 C:\alaragon\www\site\ci4\app\Views\front\loja\index.php(154): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\alaragon\\www...', 154, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\alaragon\\www...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(236): CodeIgniter\View\View->render('front/loja/inde...', Array, true)
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('front/loja/cont...', Array, true)
+#5 C:\alaragon\www\site\ci4\app\Controllers\Front\Home.php(34): view('front/loja/cont...', Array)
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Home->index()
+#7 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Home))
+#8 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-10-20 07:55:35 --> syntax error, unexpected ';'
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(236): CodeIgniter\View\View->render('front/loja/inde...', Array, true)
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('front/loja/cont...', Array, true)
+#3 C:\alaragon\www\site\ci4\app\Controllers\Front\Home.php(34): view('front/loja/cont...', Array)
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Home->index()
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Home))
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-20 07:56:15 --> syntax error, unexpected ';'
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(236): CodeIgniter\View\View->render('front/loja/inde...', Array, true)
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('front/loja/cont...', Array, true)
+#3 C:\alaragon\www\site\ci4\app\Controllers\Front\Home.php(34): view('front/loja/cont...', Array)
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Home->index()
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Home))
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-20 07:57:32 --> Undefined variable: auth
+#0 C:\alaragon\www\site\ci4\app\Views\front\loja\index.php(154): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\alaragon\\www...', 154, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\alaragon\\www...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(236): CodeIgniter\View\View->render('front/loja/inde...', Array, true)
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('front/loja/cont...', Array, true)
+#5 C:\alaragon\www\site\ci4\app\Controllers\Front\Home.php(34): view('front/loja/cont...', Array)
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Home->index()
+#7 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Home))
+#8 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-10-20 07:58:11 --> Undefined variable: paginas
+#0 C:\alaragon\www\site\ci4\app\Views\front\loja\index.php(269): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\alaragon\\www...', 269, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\alaragon\\www...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(236): CodeIgniter\View\View->render('front/loja/inde...', Array, true)
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('front/loja/cont...', Array, true)
+#5 C:\alaragon\www\site\ci4\app\Controllers\Front\Home.php(33): view('front/loja/cont...', Array)
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Home->index()
+#7 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Home))
+#8 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-10-20 08:00:05 --> Undefined property: stdClass::$pagamento
+#0 C:\alaragon\www\site\ci4\app\Views\front\loja\index.php(432): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\alaragon\\www...', 432, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\alaragon\\www...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(236): CodeIgniter\View\View->render('front/loja/inde...', Array, true)
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('front/loja/cont...', Array, true)
+#5 C:\alaragon\www\site\ci4\app\Controllers\Front\Home.php(32): view('front/loja/cont...', Array)
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Home->index()
+#7 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Home))
+#8 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-10-20 08:26:44 --> mysqli_sql_exception: Unknown column 'gallery.idIpagina' in 'on clause' in C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\alaragon\www\site\ci4\app\Models\Front\Shop\GetDados_model.php(16): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\alaragon\www\site\ci4\app\Controllers\Front\Home.php(26): App\Models\Front\Shop\GetDados_model->getDados()
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Home->index()
+#7 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Home))
+#8 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-10-20 08:26:44 --> Unknown column 'gallery.idIpagina' in 'on clause'
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\alaragon\www\site\ci4\app\Models\Front\Shop\GetDados_model.php(16): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\alaragon\www\site\ci4\app\Controllers\Front\Home.php(26): App\Models\Front\Shop\GetDados_model->getDados()
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Home->index()
+#7 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Home))
+#8 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-10-20 08:27:04 --> mysqli_sql_exception: Unknown column 'gallery.id_pagina' in 'on clause' in C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\alaragon\www\site\ci4\app\Models\Front\Shop\GetDados_model.php(16): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\alaragon\www\site\ci4\app\Controllers\Front\Home.php(26): App\Models\Front\Shop\GetDados_model->getDados()
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Home->index()
+#7 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Home))
+#8 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-10-20 08:27:04 --> Unknown column 'gallery.id_pagina' in 'on clause'
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\alaragon\www\site\ci4\app\Models\Front\Shop\GetDados_model.php(16): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\alaragon\www\site\ci4\app\Controllers\Front\Home.php(26): App\Models\Front\Shop\GetDados_model->getDados()
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Home->index()
+#7 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Home))
+#8 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-10-20 08:36:18 --> syntax error, unexpected ')', expecting ']'
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(274): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\alaragon\\www...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Fron...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Fron...')
+#3 C:\alaragon\www\site\ci4\app\Controllers\Front\Home.php(19): spl_autoload_call('App\\Models\\Fron...')
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Home->index()
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Home))
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-20 08:36:34 --> Undefined variable: popup
+#0 C:\alaragon\www\site\ci4\app\Views\front\loja\index.php(350): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\alaragon\\www...', 350, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\alaragon\\www...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(236): CodeIgniter\View\View->render('front/loja/inde...', Array, true)
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('front/loja/cont...', Array, true)
+#5 C:\alaragon\www\site\ci4\app\Controllers\Front\Home.php(33): view('front/loja/cont...', Array)
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Home->index()
+#7 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Home))
+#8 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-10-20 09:03:37 --> Call to undefined method App\Models\Front\siteConfig_model::getLinks
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Categoria.php(24): CodeIgniter\Model->__call('getLinks', Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Categoria->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Categoria))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 09:04:32 --> syntax error, unexpected '}', expecting end of file
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(236): CodeIgniter\View\View->render('front/loja/inde...', Array, true)
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('front/loja/cont...', Array, true)
+#3 C:\alaragon\www\site\ci4\app\Controllers\Front\Home.php(34): view('front/loja/cont...', Array)
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Home->index()
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Home))
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-20 09:05:36 --> Undefined offset: 0
+#0 C:\alaragon\www\site\ci4\app\Views\front\loja\index.php(350): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\alaragon\\www...', 350, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\alaragon\\www...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(236): CodeIgniter\View\View->render('front/loja/inde...', Array, true)
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('front/loja/cont...', Array, true)
+#5 C:\alaragon\www\site\ci4\app\Controllers\Front\Home.php(34): view('front/loja/cont...', Array)
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Home->index()
+#7 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Home))
+#8 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-10-20 09:09:39 --> Undefined offset: 0
+#0 C:\alaragon\www\site\ci4\app\Views\front\loja\index.php(350): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\alaragon\\www...', 350, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\alaragon\\www...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(236): CodeIgniter\View\View->render('front/loja/inde...', Array, true)
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('front/loja/cont...', Array, true)
+#5 C:\alaragon\www\site\ci4\app\Controllers\Front\Home.php(34): view('front/loja/cont...', Array)
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Home->index()
+#7 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Home))
+#8 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-10-20 09:11:41 --> Undefined offset: 0
+#0 C:\alaragon\www\site\ci4\app\Views\front\loja\index.php(351): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\alaragon\\www...', 351, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\alaragon\\www...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(236): CodeIgniter\View\View->render('front/loja/inde...', Array, true)
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('front/loja/cont...', Array, true)
+#5 C:\alaragon\www\site\ci4\app\Controllers\Front\Home.php(34): view('front/loja/cont...', Array)
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Home->index()
+#7 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Home))
+#8 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-10-20 09:22:36 --> Cannot declare class App\Controllers\Front\Produtos, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-10-20 09:23:04 --> Class 'App\Controllers\Front\Shop\BaseController' not found
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(342): include_once()
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(274): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\alaragon\\www...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 [internal function]: spl_autoload_call('App\\Controllers...')
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(894): class_exists('\\App\\Controller...', true)
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(418): CodeIgniter\CodeIgniter->startController()
+#7 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-20 09:23:17 --> Too few arguments to function CodeIgniter\CodeIgniter::__construct(), 0 passed in C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php on line 909 and exactly 1 expected
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(909): CodeIgniter\CodeIgniter->__construct()
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(423): CodeIgniter\CodeIgniter->createController()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-20 09:23:54 --> Too few arguments to function CodeIgniter\CodeIgniter::__construct(), 0 passed in C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php on line 909 and exactly 1 expected
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(909): CodeIgniter\CodeIgniter->__construct()
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(423): CodeIgniter\CodeIgniter->createController()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-20 09:24:27 --> Call to undefined method App\Models\Front\Shop\GetDados_model::getSlug
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(30): CodeIgniter\Model->__call('getSlug', Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-10-20 09:32:10 --> mysqli_sql_exception: Unknown column 'produtos.slug' in 'where clause' in C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `shop_pr...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `shop_pr...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `shop_pr...')
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `shop_pr...', Array, false)
+#4 C:\alaragon\www\site\ci4\app\Models\Front\Shop\GetDados_model.php(47): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(29): App\Models\Front\Shop\GetDados_model->getSlug('pistola-45mm')
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#7 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#8 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-10-20 09:32:10 --> Unknown column 'produtos.slug' in 'where clause'
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `shop_pr...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `shop_pr...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `shop_pr...')
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `shop_pr...', Array, false)
+#4 C:\alaragon\www\site\ci4\app\Models\Front\Shop\GetDados_model.php(47): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(29): App\Models\Front\Shop\GetDados_model->getSlug('pistola-45mm')
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#7 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#8 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-10-20 09:33:37 --> Call to undefined method App\Models\Front\Shop\GetDados_model::getAtributos
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(35): CodeIgniter\Model->__call('getAtributos', Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 09:34:46 --> Call to undefined method App\Models\Front\Shop\GetDados_model::getAtributos
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(35): CodeIgniter\Model->__call('getAtributos', Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-10-20 09:35:35 --> mysqli_sql_exception: Unknown column 'ativo' in 'where clause' in C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\alaragon\www\site\ci4\app\Models\Front\Shop\GetDados_model.php(54): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(35): App\Models\Front\Shop\GetDados_model->GetAtributos('70')
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#7 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#8 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-10-20 09:35:35 --> Unknown column 'ativo' in 'where clause'
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\alaragon\www\site\ci4\app\Models\Front\Shop\GetDados_model.php(54): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(35): App\Models\Front\Shop\GetDados_model->GetAtributos('70')
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#7 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#8 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-10-20 09:36:03 --> Call to undefined method App\Models\Front\Shop\GetDados_model::getFotosProdutos
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(36): CodeIgniter\Model->__call('getFotosProduto...', Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 09:36:22 --> Undefined index: produtos
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\alaragon\\www...', 45, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 09:36:41 --> Arquivo inválido: front/shop/produto/index.php
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front/shop/prod...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('front/shop/prod...', Array, true)
+#2 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(49): view('front/shop/prod...', Array)
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-10-20 09:37:37 --> Arquivo inválido: front/shop/produto/index.php
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front/shop/prod...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('front/shop/prod...', Array, true)
+#2 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(49): view('front/shop/prod...', Array)
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-10-20 09:38:13 --> Undefined variable: imagens
+#0 C:\alaragon\www\site\ci4\app\Views\front\shop\produto\index.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\alaragon\\www...', 20, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\alaragon\\www...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('front/shop/prod...', Array, true)
+#4 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(49): view('front/shop/prod...', Array)
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#7 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-20 09:38:24 --> Arquivo inválido: front/loja/content.php
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front/loja/cont...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('front/loja/cont...', Array, true)
+#2 C:\alaragon\www\site\ci4\app\Controllers\Front\Home.php(34): view('front/loja/cont...', Array)
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Home->index()
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Home))
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-10-20 09:38:41 --> Arquivo inválido: front/loja/index.php
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front/loja/inde...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(236): CodeIgniter\View\View->render('front/loja/inde...', Array, true)
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('front/shop/cont...', Array, true)
+#3 C:\alaragon\www\site\ci4\app\Controllers\Front\Home.php(34): view('front/shop/cont...', Array)
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Home->index()
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Home))
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-20 09:39:47 --> Arquivo inválido: front/loja/modal_produto.php
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front/loja/moda...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(468): CodeIgniter\View\View->render('front/loja/moda...', NULL, true)
+#2 C:\alaragon\www\site\ci4\app\Views\front\shop\index.php(367): CodeIgniter\View\View->include('front/loja/moda...')
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\alaragon\\www...')
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(236): CodeIgniter\View\View->render('front/shop/inde...', Array, true)
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('front/shop/cont...', Array, true)
+#7 C:\alaragon\www\site\ci4\app\Controllers\Front\Home.php(34): view('front/shop/cont...', Array)
+#8 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Home->index()
+#9 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Home))
+#10 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-10-20 09:40:21 --> Arquivo inválido: front/loja/modal_produto.php
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front/loja/moda...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(468): CodeIgniter\View\View->render('front/loja/moda...', NULL, true)
+#2 C:\alaragon\www\site\ci4\app\Views\front\shop\index.php(367): CodeIgniter\View\View->include('front/loja/moda...')
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\alaragon\\www...')
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(236): CodeIgniter\View\View->render('front/shop/inde...', Array, true)
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('front/shop/cont...', Array, true)
+#7 C:\alaragon\www\site\ci4\app\Controllers\Front\Home.php(34): view('front/shop/cont...', Array)
+#8 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Home->index()
+#9 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Home))
+#10 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-10-20 09:40:48 --> Arquivo inválido: front/loja/modal_produto.php
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front/loja/moda...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(468): CodeIgniter\View\View->render('front/loja/moda...', NULL, true)
+#2 C:\alaragon\www\site\ci4\app\Views\front\shop\index.php(367): CodeIgniter\View\View->include('front/loja/moda...')
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\alaragon\\www...')
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(236): CodeIgniter\View\View->render('front/shop/inde...', Array, true)
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('front/shop/cont...', Array, true)
+#7 C:\alaragon\www\site\ci4\app\Controllers\Front\Home.php(34): view('front/shop/cont...', Array)
+#8 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Home->index()
+#9 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Home))
+#10 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-10-20 09:40:50 --> Arquivo inválido: front/loja/modal_produto.php
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front/loja/moda...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(468): CodeIgniter\View\View->render('front/loja/moda...', NULL, true)
+#2 C:\alaragon\www\site\ci4\app\Views\front\shop\index.php(367): CodeIgniter\View\View->include('front/loja/moda...')
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\alaragon\\www...')
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(236): CodeIgniter\View\View->render('front/shop/inde...', Array, true)
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('front/shop/cont...', Array, true)
+#7 C:\alaragon\www\site\ci4\app\Controllers\Front\Home.php(34): view('front/shop/cont...', Array)
+#8 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Home->index()
+#9 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Home))
+#10 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-10-20 09:41:25 --> Undefined variable: imagens
+#0 C:\alaragon\www\site\ci4\app\Views\front\shop\produto\index.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\alaragon\\www...', 20, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\alaragon\\www...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('front/shop/prod...', Array, true)
+#4 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(49): view('front/shop/prod...', Array)
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#7 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-20 09:42:06 --> Undefined variable: produtos
+#0 C:\alaragon\www\site\ci4\app\Views\front\shop\produto\index.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\alaragon\\www...', 39, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\alaragon\\www...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('front/shop/prod...', Array, true)
+#4 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(49): view('front/shop/prod...', Array)
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#7 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-20 09:42:27 --> Undefined property: stdClass::$nome
+#0 C:\alaragon\www\site\ci4\app\Views\front\shop\produto\index.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\alaragon\\www...', 39, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\alaragon\\www...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('front/shop/prod...', Array, true)
+#4 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(49): view('front/shop/prod...', Array)
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#7 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-20 09:43:12 --> Undefined property: stdClass::$nome
+#0 C:\alaragon\www\site\ci4\app\Views\front\shop\produto\index.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\alaragon\\www...', 39, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\alaragon\\www...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('front/shop/prod...', Array, true)
+#4 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(51): view('front/shop/prod...', Array)
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#7 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-20 09:43:44 --> include(carrinho_topo.php): failed to open stream: No such file or directory
+#0 C:\alaragon\www\site\ci4\app\Views\front\loja\index.php(250): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(carrinh...', 'C:\\alaragon\\www...', 250, Array)
+#1 C:\alaragon\www\site\ci4\app\Views\front\loja\index.php(250): include()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\alaragon\\www...')
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(236): CodeIgniter\View\View->render('front/loja/inde...', Array, true)
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('front/shop/prod...', Array, true)
+#6 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(51): view('front/shop/prod...', Array)
+#7 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#8 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#9 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-10-20 09:44:24 --> include(carrinho_topo.php): failed to open stream: No such file or directory
+#0 C:\alaragon\www\site\ci4\app\Views\front\loja\index.php(250): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(carrinh...', 'C:\\alaragon\\www...', 250, Array)
+#1 C:\alaragon\www\site\ci4\app\Views\front\loja\index.php(250): include()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\alaragon\\www...')
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(236): CodeIgniter\View\View->render('front/loja/inde...', Array, true)
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('front/shop/prod...', Array, true)
+#6 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(51): view('front/shop/prod...', Array)
+#7 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#8 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#9 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-10-20 09:45:01 --> include(carrinho_topo.php): failed to open stream: No such file or directory
+#0 C:\alaragon\www\site\ci4\app\Views\front\loja\index.php(250): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(carrinh...', 'C:\\alaragon\\www...', 250, Array)
+#1 C:\alaragon\www\site\ci4\app\Views\front\loja\index.php(250): include()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\alaragon\\www...')
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(236): CodeIgniter\View\View->render('front/loja/inde...', Array, true)
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('front/shop/prod...', Array, true)
+#6 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(51): view('front/shop/prod...', Array)
+#7 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#8 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#9 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-10-20 09:47:41 --> Arquivo inválido: front/loja/index.php
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front/loja/inde...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(236): CodeIgniter\View\View->render('front/loja/inde...', Array, true)
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('front/shop/prod...', Array, true)
+#3 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(51): view('front/shop/prod...', Array)
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-20 09:50:19 --> Arquivo inválido: front/loja/index.php
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front/loja/inde...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(236): CodeIgniter\View\View->render('front/loja/inde...', Array, true)
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('front/shop/prod...', Array, true)
+#3 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(51): view('front/shop/prod...', Array)
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-20 09:50:34 --> Undefined offset: 0
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\alaragon\\www...', 35, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 09:51:08 --> Undefined offset: 0
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\alaragon\\www...', 35, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 09:51:08 --> Undefined offset: 0
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\alaragon\\www...', 35, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 09:51:08 --> Undefined offset: 0
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\alaragon\\www...', 35, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 09:51:37 --> Undefined offset: 0
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\alaragon\\www...', 35, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 09:53:06 --> Undefined offset: 0
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\alaragon\\www...', 35, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 09:53:16 --> Undefined offset: 0
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\alaragon\\www...', 35, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 09:53:17 --> Undefined offset: 0
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\alaragon\\www...', 35, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 09:53:17 --> Undefined offset: 0
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\alaragon\\www...', 35, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 09:54:44 --> Undefined offset: 0
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\alaragon\\www...', 35, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 09:54:44 --> Undefined offset: 0
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\alaragon\\www...', 35, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 09:54:44 --> Undefined offset: 0
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\alaragon\\www...', 35, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 10:00:14 --> Undefined offset: 0
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\alaragon\\www...', 35, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 10:00:14 --> Undefined offset: 0
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\alaragon\\www...', 35, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 10:00:15 --> Undefined offset: 0
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\alaragon\\www...', 35, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 10:14:38 --> Undefined offset: 0
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\alaragon\\www...', 35, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 10:14:39 --> Undefined offset: 0
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\alaragon\\www...', 35, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 10:14:39 --> Undefined offset: 0
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\alaragon\\www...', 35, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 10:17:31 --> Undefined offset: 0
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\alaragon\\www...', 35, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 10:17:32 --> Undefined offset: 0
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\alaragon\\www...', 35, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 10:17:33 --> Undefined offset: 0
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\alaragon\\www...', 35, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 10:19:36 --> Undefined offset: 0
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\alaragon\\www...', 35, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 10:19:36 --> Undefined offset: 0
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\alaragon\\www...', 35, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 10:19:37 --> Undefined offset: 0
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\alaragon\\www...', 35, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 10:21:38 --> Undefined offset: 0
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\alaragon\\www...', 35, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 10:21:39 --> Undefined offset: 0
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\alaragon\\www...', 35, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 10:21:40 --> Undefined offset: 0
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\alaragon\\www...', 35, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 10:22:00 --> Undefined offset: 0
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\alaragon\\www...', 35, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 10:22:01 --> Undefined offset: 0
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\alaragon\\www...', 35, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 10:22:02 --> Undefined offset: 0
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\alaragon\\www...', 35, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 10:22:28 --> Undefined offset: 0
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\alaragon\\www...', 35, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 10:22:28 --> Undefined offset: 0
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\alaragon\\www...', 35, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 10:22:29 --> Undefined offset: 0
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\alaragon\\www...', 35, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-10-20 10:22:31 --> mysqli_sql_exception: Table 'site.atributos' doesn't exist in C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\alaragon\www\site\ci4\app\Models\Front\Shop\GetDados_model.php(65): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(115): App\Models\Front\Shop\GetDados_model->getVariacoes('70', '#FF0000:Vermelh...')
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->getAtributos()
+#7 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#8 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-10-20 10:22:31 --> Table 'site.atributos' doesn't exist
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\alaragon\www\site\ci4\app\Models\Front\Shop\GetDados_model.php(65): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(115): App\Models\Front\Shop\GetDados_model->getVariacoes('70', '#FF0000:Vermelh...')
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->getAtributos()
+#7 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#8 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-10-20 10:37:49 --> Undefined offset: 0
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\alaragon\\www...', 35, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 10:37:50 --> Undefined offset: 0
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\alaragon\\www...', 35, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 10:37:51 --> Undefined offset: 0
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\alaragon\\www...', 35, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 10:49:51 --> Undefined offset: 0
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\alaragon\\www...', 35, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 10:49:52 --> Undefined offset: 0
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\alaragon\\www...', 35, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 10:49:53 --> Undefined offset: 0
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\alaragon\\www...', 35, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 10:49:56 --> Cannot declare class App\Controllers\Front\Carrinho, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-10-20 10:50:25 --> Undefined offset: 0
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\alaragon\\www...', 35, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 10:50:27 --> Undefined offset: 0
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\alaragon\\www...', 35, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 10:50:27 --> Undefined offset: 0
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\alaragon\\www...', 35, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 10:50:31 --> Undefined variable: model_produtos
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Carrinho.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\alaragon\\www...', 55, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Carrinho->add()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Carrinho))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 10:51:59 --> Undefined offset: 0
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\alaragon\\www...', 35, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 10:52:00 --> Undefined offset: 0
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\alaragon\\www...', 35, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 10:52:01 --> Undefined offset: 0
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\alaragon\\www...', 35, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 10:52:07 --> Call to undefined method App\Models\Front\Shop\GetDados_model::View
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Carrinho.php(57): CodeIgniter\Model->__call('View', Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Carrinho->add()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Carrinho))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 11:01:46 --> Undefined offset: 0
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\alaragon\\www...', 35, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 11:01:47 --> Undefined offset: 0
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\alaragon\\www...', 35, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 11:01:48 --> Undefined offset: 0
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\alaragon\\www...', 35, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 11:01:57 --> Cannot declare class App\Models\Admin\Shop\Categorias_model, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-10-20 11:02:18 --> Cannot declare class App\Models\Admin\Shop\Carrinho_model, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-10-20 11:02:48 --> Undefined offset: 0
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\alaragon\\www...', 35, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 11:02:49 --> Undefined offset: 0
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\alaragon\\www...', 35, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 11:02:49 --> Undefined offset: 0
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\alaragon\\www...', 35, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 11:02:53 --> Cannot declare class App\Models\Admin\Shop\Carrinho_model, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2021-10-20 11:03:20 --> mysqli_sql_exception: Unknown column 'qtd' in 'field list' in C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `sh...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sh...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sh...')
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2265): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sh...', Array, false)
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\BaseModel.php(667): CodeIgniter\Model->insert(Array, false)
+#8 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Carrinho.php(56): CodeIgniter\BaseModel->save(Array)
+#9 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Carrinho->add()
+#10 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Carrinho))
+#11 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-10-20 11:03:20 --> Unknown column 'qtd' in 'field list'
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `sh...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sh...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sh...')
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2265): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sh...', Array, false)
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\BaseModel.php(667): CodeIgniter\Model->insert(Array, false)
+#8 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Carrinho.php(56): CodeIgniter\BaseModel->save(Array)
+#9 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Carrinho->add()
+#10 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Carrinho))
+#11 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-10-20 11:14:33 --> Undefined offset: 0
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\alaragon\\www...', 35, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 11:14:34 --> Undefined offset: 0
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\alaragon\\www...', 35, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 11:14:34 --> Undefined offset: 0
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\alaragon\\www...', 35, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 11:14:47 --> Undefined offset: 0
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\alaragon\\www...', 35, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 11:14:48 --> Undefined offset: 0
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\alaragon\\www...', 35, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 11:14:48 --> Undefined offset: 0
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\alaragon\\www...', 35, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 11:14:58 --> Class 'App\Controllers\Front\Shop\Produtos_model' not found
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Carrinho->add()
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Carrinho))
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-20 11:15:39 --> Undefined offset: 0
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\alaragon\\www...', 35, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 11:15:40 --> Undefined offset: 0
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\alaragon\\www...', 35, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 11:15:40 --> Undefined offset: 0
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\alaragon\\www...', 35, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 11:15:43 --> Call to undefined method App\Models\Front\Shop\GetDados_model::View
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Carrinho.php(60): CodeIgniter\Model->__call('View', Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Carrinho->add()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Carrinho))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 11:18:55 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(274): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\alaragon\\www...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Fron...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Fron...')
+#3 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(17): spl_autoload_call('App\\Models\\Fron...')
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-20 11:19:41 --> syntax error, unexpected 'else' (T_ELSE)
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(274): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\alaragon\\www...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Fron...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Fron...')
+#3 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(17): spl_autoload_call('App\\Models\\Fron...')
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-20 11:19:53 --> Undefined offset: 0
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\alaragon\\www...', 35, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 11:19:54 --> Undefined offset: 0
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\alaragon\\www...', 35, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 11:19:54 --> Undefined offset: 0
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\alaragon\\www...', 35, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 11:19:58 --> Class 'App\Controllers\Front\Shop\getDados' not found
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Carrinho->add()
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Carrinho))
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-20 11:21:01 --> Call to a member function insert() on null
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Carrinho->add()
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Carrinho))
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-20 11:21:52 --> Undefined offset: 0
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\alaragon\\www...', 35, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 11:21:53 --> Undefined offset: 0
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\alaragon\\www...', 35, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 11:21:53 --> Undefined offset: 0
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\alaragon\\www...', 35, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 11:53:37 --> Undefined offset: 0
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\alaragon\\www...', 35, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 11:53:38 --> Undefined offset: 0
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\alaragon\\www...', 35, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 11:53:39 --> Undefined offset: 0
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\alaragon\\www...', 35, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 12:06:42 --> Undefined offset: 0
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\alaragon\\www...', 35, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 12:06:42 --> Undefined offset: 0
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\alaragon\\www...', 35, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 12:06:42 --> Undefined offset: 0
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\alaragon\\www...', 35, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 12:06:52 --> Undefined property: stdClass::$foto
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Carrinho.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\alaragon\\www...', 73, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Carrinho->add()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Carrinho))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 12:08:39 --> Undefined offset: 0
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\alaragon\\www...', 35, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 12:08:41 --> Undefined offset: 0
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\alaragon\\www...', 35, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 12:08:41 --> Undefined offset: 0
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\alaragon\\www...', 35, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 12:14:28 --> Undefined offset: 0
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\alaragon\\www...', 35, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 12:14:28 --> Undefined offset: 0
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\alaragon\\www...', 35, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 12:14:28 --> Undefined offset: 0
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\alaragon\\www...', 35, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 12:17:54 --> Undefined property: stdClass::$correios
+#0 C:\alaragon\www\site\ci4\app\Views\front\shop\carrinho\index.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\alaragon\\www...', 74, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\alaragon\\www...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('front/shop/carr...', Array, true)
+#4 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Carrinho.php(30): view('front/shop/carr...', Array)
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Carrinho->index()
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Carrinho))
+#7 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-20 12:20:39 --> Undefined property: stdClass::$correios
+#0 C:\alaragon\www\site\ci4\app\Views\front\shop\carrinho\index.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\alaragon\\www...', 74, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\alaragon\\www...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('front/shop/carr...', Array, true)
+#4 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Carrinho.php(30): view('front/shop/carr...', Array)
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Carrinho->index()
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Carrinho))
+#7 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-20 12:20:44 --> Undefined variable: cart
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\alaragon\\www...', 28, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Home->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Home))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 12:21:17 --> Undefined variable: total_itens
+#0 C:\alaragon\www\site\ci4\app\Views\front\shop\index.php(101): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\alaragon\\www...', 101, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\alaragon\\www...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(236): CodeIgniter\View\View->render('front/shop/inde...', Array, true)
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('front/shop/prod...', Array, true)
+#5 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(51): view('front/shop/prod...', Array)
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#7 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#8 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-10-20 12:21:48 --> Undefined offset: 0
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\alaragon\\www...', 35, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 12:21:48 --> Undefined offset: 0
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\alaragon\\www...', 35, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 12:21:49 --> Undefined offset: 0
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\alaragon\\www...', 35, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 12:21:53 --> Undefined property: stdClass::$correios
+#0 C:\alaragon\www\site\ci4\app\Views\front\shop\carrinho\index.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\alaragon\\www...', 74, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\alaragon\\www...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('front/shop/carr...', Array, true)
+#4 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Carrinho.php(30): view('front/shop/carr...', Array)
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Carrinho->index()
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Carrinho))
+#7 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-20 12:23:30 --> Arquivo inválido: front/loja/index.php
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front/loja/inde...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(236): CodeIgniter\View\View->render('front/loja/inde...', Array, true)
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('front/shop/carr...', Array, true)
+#3 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Carrinho.php(30): view('front/shop/carr...', Array)
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Carrinho->index()
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Carrinho))
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-20 12:24:31 --> Arquivo inválido: front/loja/index.php
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front/loja/inde...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(236): CodeIgniter\View\View->render('front/loja/inde...', Array, true)
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('front/shop/carr...', Array, true)
+#3 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Carrinho.php(31): view('front/shop/carr...', Array)
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Carrinho->index()
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Carrinho))
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-20 12:32:39 --> Call to undefined method App\Models\Front\Shop\GetDados_model::view
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(63): CodeIgniter\Model->__call('view', Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->quickView()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 12:32:42 --> Undefined offset: 0
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\alaragon\\www...', 35, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 12:32:42 --> Undefined offset: 0
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\alaragon\\www...', 35, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 12:32:42 --> Undefined offset: 0
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\alaragon\\www...', 35, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 12:52:07 --> Undefined offset: 0
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\alaragon\\www...', 35, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 12:52:07 --> Undefined offset: 0
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\alaragon\\www...', 35, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 12:52:08 --> Undefined offset: 0
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\alaragon\\www...', 35, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 12:55:21 --> Undefined offset: 0
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\alaragon\\www...', 35, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 12:55:21 --> Undefined offset: 0
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\alaragon\\www...', 35, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 12:55:21 --> Undefined offset: 0
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\alaragon\\www...', 35, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 12:56:20 --> Undefined offset: 0
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\alaragon\\www...', 35, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 12:56:20 --> Undefined offset: 0
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\alaragon\\www...', 35, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 12:56:21 --> Undefined offset: 0
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Produtos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\alaragon\\www...', 35, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Produtos->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Produtos))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 13:07:25 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(274): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\alaragon\\www...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(894): class_exists('\\App\\Controller...', true)
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(418): CodeIgniter\CodeIgniter->startController()
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-20 13:08:08 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(274): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\alaragon\\www...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(894): class_exists('\\App\\Controller...', true)
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(418): CodeIgniter\CodeIgniter->startController()
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-20 13:13:51 --> Arquivo inválido: front/shop/checkout/index.php
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front/shop/chec...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('front/shop/chec...', Array, true)
+#2 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Checkout.php(32): view('front/shop/chec...', Array)
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Checkout->index()
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Checkout))
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-10-20 13:15:11 --> Undefined variable: usuario
+#0 C:\alaragon\www\site\ci4\app\Views\front\shop\checkout\pgmeChekcout.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\alaragon\\www...', 68, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\alaragon\\www...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('front/shop/chec...', Array, true)
+#4 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Checkout.php(32): view('front/shop/chec...', Array)
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Checkout->index()
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Checkout))
+#7 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-20 13:15:36 --> Undefined variable: usuario
+#0 C:\alaragon\www\site\ci4\app\Views\front\shop\checkout\pgmeChekcout.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\alaragon\\www...', 87, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\alaragon\\www...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('front/shop/chec...', Array, true)
+#4 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Checkout.php(32): view('front/shop/chec...', Array)
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Checkout->index()
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Checkout))
+#7 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-20 13:16:14 --> Undefined variable: usuario
+#0 C:\alaragon\www\site\ci4\app\Views\front\shop\checkout\pgmeChekcout.php(98): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\alaragon\\www...', 98, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\alaragon\\www...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('front/shop/chec...', Array, true)
+#4 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Checkout.php(32): view('front/shop/chec...', Array)
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Checkout->index()
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Checkout))
+#7 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-20 13:16:32 --> Undefined variable: usuario
+#0 C:\alaragon\www\site\ci4\app\Views\front\shop\checkout\pgmeChekcout.php(101): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\alaragon\\www...', 101, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\alaragon\\www...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('front/shop/chec...', Array, true)
+#4 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Checkout.php(32): view('front/shop/chec...', Array)
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Checkout->index()
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Checkout))
+#7 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-20 13:16:44 --> Undefined variable: usuario
+#0 C:\alaragon\www\site\ci4\app\Views\front\shop\checkout\pgmeChekcout.php(117): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\alaragon\\www...', 117, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\alaragon\\www...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('front/shop/chec...', Array, true)
+#4 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Checkout.php(32): view('front/shop/chec...', Array)
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Checkout->index()
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Checkout))
+#7 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-20 13:34:17 --> Call to undefined method App\Models\Front\siteConfig_model::getParametrosEnvio
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Carrinho.php(174): CodeIgniter\Model->__call('getParametrosEn...', Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Carrinho->calcula_frete()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Carrinho))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-20 14:14:22 --> syntax error, unexpected '?>'
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('front/shop/chec...', Array, true)
+#2 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Checkout.php(29): view('front/shop/chec...', Array)
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Checkout->index()
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Checkout))
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-10-20 14:16:38 --> Trying to get property 'email' of non-object
+#0 C:\alaragon\www\site\ci4\app\Views\front\shop\checkout\pgmeChekcout.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\alaragon\\www...', 97, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\alaragon\\www...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('front/shop/chec...', Array, true)
+#4 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Checkout.php(29): view('front/shop/chec...', Array)
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Checkout->index()
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Checkout))
+#7 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-20 14:17:37 --> Trying to get property 'email' of non-object
+#0 C:\alaragon\www\site\ci4\app\Views\front\shop\checkout\pgmeChekcout.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\alaragon\\www...', 97, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\alaragon\\www...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('front/shop/chec...', Array, true)
+#4 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Checkout.php(29): view('front/shop/chec...', Array)
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Checkout->index()
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Checkout))
+#7 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-20 14:19:26 --> Trying to get property 'email' of non-object
+#0 C:\alaragon\www\site\ci4\app\Views\front\shop\checkout\pgmeChekcout.php(102): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\alaragon\\www...', 102, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\alaragon\\www...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('front/shop/chec...', Array, true)
+#4 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Checkout.php(29): view('front/shop/chec...', Array)
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Checkout->index()
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Checkout))
+#7 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-20 14:19:39 --> Trying to get property 'cpf' of non-object
+#0 C:\alaragon\www\site\ci4\app\Views\front\shop\checkout\pgmeChekcout.php(109): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\alaragon\\www...', 109, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\alaragon\\www...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('front/shop/chec...', Array, true)
+#4 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Checkout.php(29): view('front/shop/chec...', Array)
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Checkout->index()
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Checkout))
+#7 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-20 14:22:45 --> Trying to get property 'cpf' of non-object
+#0 C:\alaragon\www\site\ci4\app\Views\front\shop\checkout\pgmeChekcout.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\alaragon\\www...', 96, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\alaragon\\www...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('front/shop/chec...', Array, true)
+#4 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Checkout.php(29): view('front/shop/chec...', Array)
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Checkout->index()
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Checkout))
+#7 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-20 14:23:56 --> Trying to get property 'id' of non-object
+#0 C:\alaragon\www\site\ci4\app\Views\front\shop\checkout\pgmeChekcout.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\alaragon\\www...', 97, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\alaragon\\www...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('front/shop/chec...', Array, true)
+#4 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Checkout.php(29): view('front/shop/chec...', Array)
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Checkout->index()
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Checkout))
+#7 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-20 14:24:03 --> Trying to get property 'nome' of non-object
+#0 C:\alaragon\www\site\ci4\app\Views\front\shop\checkout\pgmeChekcout.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\alaragon\\www...', 97, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\alaragon\\www...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('front/shop/chec...', Array, true)
+#4 C:\alaragon\www\site\ci4\app\Controllers\Front\Shop\Checkout.php(29): view('front/shop/chec...', Array)
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Shop\Checkout->index()
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Shop\Checkout))
+#7 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}

@@ -1,0 +1,22 @@
+CRITICAL - 2021-10-28 15:47:53 --> Cannot declare class App\Controllers\Front\Users, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-10-28 15:48:18 --> Cannot declare class App\Controllers\Front\Users, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-10-28 15:49:44 --> Cannot declare class App\Controllers\Front\Users, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-10-28 15:50:18 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::getDados()
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Response->index()
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Response))
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-28 15:50:46 --> syntax error, unexpected ')'
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('front/response')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(817): CodeIgniter\Router\Router->handle('front/response')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(386): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

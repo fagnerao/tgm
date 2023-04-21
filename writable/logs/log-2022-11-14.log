@@ -1,0 +1,327 @@
+CRITICAL - 2022-11-14 08:26:21 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-11-14 08:26:21 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-11-14 08:42:30 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-11-14 08:42:30 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-11-14 08:46:01 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-11-14 08:46:02 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-11-14 08:47:41 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-11-14 08:47:41 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-11-14 08:49:18 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-11-14 08:49:18 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-11-14 08:49:18 --> Array to string conversion
+#0 C:\alaragon\www\site\ci4\app\Controllers\Front\Api.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\alaragon\\www...', 28, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Api->RegisterApi()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Api))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-14 08:49:48 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-11-14 08:49:48 --> print_r() expects parameter 2 to be bool, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r() expec...', 'C:\\alaragon\\www...', 28, Array)
+#1 C:\alaragon\www\site\ci4\app\Controllers\Front\Api.php(28): print_r('dados', Array)
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Api->RegisterApi()
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Api))
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-11-14 08:50:38 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-11-14 08:50:38 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-11-14 08:56:17 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-11-14 08:56:17 --> syntax error, unexpected 'email' (T_STRING), expecting ')'
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(274): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\alaragon\\www...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(894): class_exists('\\App\\Controller...', true)
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(418): CodeIgniter\CodeIgniter->startController()
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-11-14 08:56:44 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-11-14 08:56:44 --> syntax error, unexpected 'email' (T_STRING), expecting ')'
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(274): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\alaragon\\www...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(894): class_exists('\\App\\Controller...', true)
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(418): CodeIgniter\CodeIgniter->startController()
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-11-14 08:57:15 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+ERROR - 2022-11-14 08:57:15 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('select * from v...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('select * from v...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('select * from v...')
+#3 C:\alaragon\www\site\ci4\app\Controllers\Front\Api.php(27): CodeIgniter\Database\BaseConnection->query('select * from v...')
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Api->RegisterApi()
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Api))
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-11-14 08:57:15 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('select * from v...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('select * from v...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('select * from v...')
+#3 C:\alaragon\www\site\ci4\app\Controllers\Front\Api.php(27): CodeIgniter\Database\BaseConnection->query('select * from v...')
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Api->RegisterApi()
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Api))
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-11-14 08:57:20 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+ERROR - 2022-11-14 08:57:20 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('select * from v...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('select * from v...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('select * from v...')
+#3 C:\alaragon\www\site\ci4\app\Controllers\Front\Api.php(27): CodeIgniter\Database\BaseConnection->query('select * from v...')
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Api->RegisterApi()
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Api))
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-11-14 08:57:20 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('select * from v...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('select * from v...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('select * from v...')
+#3 C:\alaragon\www\site\ci4\app\Controllers\Front\Api.php(27): CodeIgniter\Database\BaseConnection->query('select * from v...')
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Api->RegisterApi()
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Api))
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-11-14 08:57:59 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+ERROR - 2022-11-14 08:57:59 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('select * from v...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('select * from v...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('select * from v...')
+#3 C:\alaragon\www\site\ci4\app\Controllers\Front\Api.php(27): CodeIgniter\Database\BaseConnection->query('select * from v...')
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Api->RegisterApi()
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Api))
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-11-14 08:57:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('select * from v...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('select * from v...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('select * from v...')
+#3 C:\alaragon\www\site\ci4\app\Controllers\Front\Api.php(27): CodeIgniter\Database\BaseConnection->query('select * from v...')
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Api->RegisterApi()
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Api))
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-11-14 08:58:15 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+ERROR - 2022-11-14 08:58:15 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@gmail.com' at line 1 in C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('select * from v...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('select * from v...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('select * from v...')
+#3 C:\alaragon\www\site\ci4\app\Controllers\Front\Api.php(27): CodeIgniter\Database\BaseConnection->query('select * from v...')
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Api->RegisterApi()
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Api))
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-11-14 08:58:15 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@gmail.com' at line 1
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('select * from v...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('select * from v...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('select * from v...')
+#3 C:\alaragon\www\site\ci4\app\Controllers\Front\Api.php(27): CodeIgniter\Database\BaseConnection->query('select * from v...')
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Api->RegisterApi()
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Api))
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-11-14 08:58:17 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+ERROR - 2022-11-14 08:58:17 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@gmail.com' at line 1 in C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('select * from v...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('select * from v...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('select * from v...')
+#3 C:\alaragon\www\site\ci4\app\Controllers\Front\Api.php(27): CodeIgniter\Database\BaseConnection->query('select * from v...')
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Api->RegisterApi()
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Api))
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-11-14 08:58:17 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@gmail.com' at line 1
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('select * from v...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('select * from v...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('select * from v...')
+#3 C:\alaragon\www\site\ci4\app\Controllers\Front\Api.php(27): CodeIgniter\Database\BaseConnection->query('select * from v...')
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Api->RegisterApi()
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Api))
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-11-14 08:58:44 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-11-14 08:59:13 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-11-14 08:59:15 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-11-14 09:02:56 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-11-14 09:02:56 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::affectedRows()
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Api->RegisterApi()
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Api))
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-11-14 09:03:03 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-11-14 09:03:03 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::affectedRows()
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Api->RegisterApi()
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Api))
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-11-14 09:03:28 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-11-14 09:03:28 --> syntax error, unexpected 'print_r' (T_STRING)
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(274): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\alaragon\\www...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(894): class_exists('\\App\\Controller...', true)
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(418): CodeIgniter\CodeIgniter->startController()
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-11-14 09:03:37 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-11-14 09:03:47 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-11-14 09:04:56 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-11-14 09:05:09 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-11-14 09:05:09 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-11-14 09:06:28 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-11-14 09:06:28 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-11-14 09:09:26 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-11-14 09:09:26 --> json_decode() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() e...', 'C:\\alaragon\\www...', 20, Array)
+#1 C:\alaragon\www\site\ci4\app\Controllers\Front\Api.php(20): json_decode(Array)
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Api->RegisterApi()
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Api))
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-11-14 09:09:46 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-11-14 09:09:46 --> Function name must be a string
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Api->RegisterApi()
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Api))
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-11-14 09:10:03 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-11-14 09:10:03 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-11-14 09:12:04 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-11-14 09:12:41 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-11-14 09:13:31 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-11-14 09:15:10 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-11-14 09:15:28 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-11-14 09:19:33 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-11-14 09:19:45 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-11-14 09:19:45 --> Function name must be a string
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Api->RegisterApi()
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Api))
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-11-14 09:20:05 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-11-14 09:20:05 --> Function name must be a string
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Api->RegisterApi()
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Api))
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-11-14 09:20:34 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-11-14 09:20:34 --> Function name must be a string
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Api->RegisterApi()
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Api))
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-11-14 09:22:16 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-11-14 09:22:16 --> Function name must be a string
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Api->RegisterApi()
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Api))
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-11-14 09:23:50 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-11-14 09:23:50 --> Function name must be a string
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Api->RegisterApi()
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Api))
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-11-14 09:26:05 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-11-14 09:26:05 --> Function name must be a string
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Api->RegisterApi()
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Api))
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-11-14 09:26:33 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-11-14 09:26:58 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-11-14 09:37:47 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-11-14 09:47:54 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-11-14 09:47:54 --> Function name must be a string
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Api->RegisterApi()
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Api))
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-11-14 09:50:09 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-11-14 09:50:09 --> Function name must be a string
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Api->RegisterApi()
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Api))
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-11-14 10:08:00 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-11-14 10:08:00 --> Function name must be a string
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Api->RegisterApi()
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Api))
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-11-14 10:08:22 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-11-14 10:08:22 --> Function name must be a string
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Api->RegisterApi()
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Api))
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-11-14 10:10:07 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-11-14 10:10:07 --> Function name must be a string
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Api->RegisterApi()
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Api))
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-11-14 10:10:39 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-11-14 10:10:39 --> Function name must be a string
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Api->RegisterApi()
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Api))
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-11-14 10:11:23 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-11-14 10:11:23 --> Function name must be a string
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Api->RegisterApi()
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Api))
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-11-14 10:16:29 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-11-14 10:16:29 --> Function name must be a string
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Api->RegisterApi()
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Api))
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-11-14 10:16:36 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-11-14 10:16:36 --> Function name must be a string
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Api->RegisterApi()
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Api))
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}

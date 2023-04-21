@@ -24,7 +24,7 @@
     <script src="https://assets.pagar.me/checkout/1.1.0/checkout.js"></script>
 
     <script type='text/javascript'>
-    var url_site = 'http://site.web/';
+    var url_site = base_url();
     </script>
 
 </head>

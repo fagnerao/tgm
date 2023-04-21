@@ -27,11 +27,11 @@
                             </div>
                             <div class="col-sm-3">
                                 <label for="inputFirstname">Início</label>
-                                <input type="text" value="<?= ($evento != NULL ? $evento->start : ''); ?>" class="form-control input_data_hora" name="start"  required>
+                                <input type="datetime-local" value="<?= ($evento != NULL ? $evento->start : ''); ?>" class="form-control " name="start"  required>
                             </div>
                             <div class="col-sm-3">
                                 <label for="inputFirstname">Fim</label>
-                                <input type="text" value="<?= ($evento != NULL ? $evento->end : ''); ?>" class="form-control input_data_hora" name="end"  required>
+                                <input type="datetime-local" value="<?= ($evento != NULL ? $evento->end : ''); ?>" class="form-control " name="end"  required>
                             </div>
                             <div class="col-sm-2">
                                 <label for="inputFirstname">Privado</label>

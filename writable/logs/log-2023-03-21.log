@@ -1,0 +1,1531 @@
+ERROR - 2023-03-21 08:38:38 --> mysqli_sql_exception: Unknown column 'int_departamentos.name' in 'field list' in C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `int_tel...')
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `int_tel...')
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `int_tel...')
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `int_tel...', Array, false)
+#4 C:\wamp64\www\site\app\Models\Admin\Telefones_model.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\site\app\Controllers\Admin\Telefones.php(21): App\Models\Admin\Telefones_model->getDados()
+#6 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Admin\Telefones->index()
+#7 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Telefones))
+#8 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-03-21 08:38:38 --> Unknown column 'int_departamentos.name' in 'field list'
+#0 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `int_tel...')
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `int_tel...')
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `int_tel...')
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `int_tel...', Array, false)
+#4 C:\wamp64\www\site\app\Models\Admin\Telefones_model.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\site\app\Controllers\Admin\Telefones.php(21): App\Models\Admin\Telefones_model->getDados()
+#6 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Admin\Telefones->index()
+#7 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Telefones))
+#8 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-03-21 08:47:07 --> Undefined property: stdClass::$name
+#0 C:\wamp64\www\site\app\Views\admin\telefones\add.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\s...', 25, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\wamp64\\www\\s...')
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\View\View.php(468): CodeIgniter\View\View->render('admin/telefones...', NULL, true)
+#4 C:\wamp64\www\site\app\Views\admin\telefones\index.php(24): CodeIgniter\View\View->include('admin/telefones...')
+#5 C:\wamp64\www\site\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\wamp64\\www\\s...')
+#6 C:\wamp64\www\site\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('admin/telefones...', Array, true)
+#8 C:\wamp64\www\site\app\Controllers\Admin\Telefones.php(31): view('admin/telefones...', Array)
+#9 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Admin\Telefones->index()
+#10 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Telefones))
+#11 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-03-21 08:48:44 --> Undefined property: stdClass::$fone
+#0 C:\wamp64\www\site\app\Views\admin\usuario\index.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\s...', 36, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\wamp64\\www\\s...')
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('admin/usuario/i...', Array, true)
+#4 C:\wamp64\www\site\app\Controllers\Admin\Usuario.php(19): view('admin/usuario/i...', Array)
+#5 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Admin\Usuario->index()
+#6 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuario))
+#7 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-03-21 09:12:32 --> mysqli_sql_exception: Unknown column 'fone' in 'field list' in C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('UPDATE `vz_user...')
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `vz_user...')
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `vz_user...')
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2472): CodeIgniter\Database\BaseConnection->query('UPDATE `vz_user...', Array, false)
+#4 C:\wamp64\www\site\app\Controllers\Admin\Usuario.php(53): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Admin\Usuario->core()
+#6 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuario))
+#7 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-21 09:12:32 --> Unknown column 'fone' in 'field list'
+#0 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('UPDATE `vz_user...')
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `vz_user...')
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `vz_user...')
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2472): CodeIgniter\Database\BaseConnection->query('UPDATE `vz_user...', Array, false)
+#4 C:\wamp64\www\site\app\Controllers\Admin\Usuario.php(53): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Admin\Usuario->core()
+#6 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuario))
+#7 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-03-21 09:16:28 --> mysqli_sql_exception: Unknown column 'nascimento' in 'field list' in C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('UPDATE `vz_user...')
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `vz_user...')
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `vz_user...')
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2472): CodeIgniter\Database\BaseConnection->query('UPDATE `vz_user...', Array, false)
+#4 C:\wamp64\www\site\app\Controllers\Admin\Usuario.php(53): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Admin\Usuario->core()
+#6 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuario))
+#7 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-21 09:16:28 --> Unknown column 'nascimento' in 'field list'
+#0 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('UPDATE `vz_user...')
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `vz_user...')
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `vz_user...')
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2472): CodeIgniter\Database\BaseConnection->query('UPDATE `vz_user...', Array, false)
+#4 C:\wamp64\www\site\app\Controllers\Admin\Usuario.php(53): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Admin\Usuario->core()
+#6 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuario))
+#7 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-21 09:20:36 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:20:38 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-03-21 09:24:34 --> mysqli_sql_exception: Unknown column 'int_documentos.nome' in 'where clause' in C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `int_doc...')
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `int_doc...')
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `int_doc...')
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `int_doc...', Array, false)
+#4 C:\wamp64\www\site\app\Models\Front\Documentos_model.php(43): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\site\app\Controllers\Front\Documentos.php(21): App\Models\Front\Documentos_model->getPesquisa('lista')
+#6 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Documentos->index()
+#7 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Documentos))
+#8 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-03-21 09:24:34 --> Unknown column 'int_documentos.nome' in 'where clause'
+#0 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `int_doc...')
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `int_doc...')
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `int_doc...')
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `int_doc...', Array, false)
+#4 C:\wamp64\www\site\app\Models\Front\Documentos_model.php(43): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\site\app\Controllers\Front\Documentos.php(21): App\Models\Front\Documentos_model->getPesquisa('lista')
+#6 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Documentos->index()
+#7 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Documentos))
+#8 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-03-21 09:24:49 --> mysqli_sql_exception: Unknown column 'int_titulo.nome' in 'where clause' in C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `int_doc...')
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `int_doc...')
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `int_doc...')
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `int_doc...', Array, false)
+#4 C:\wamp64\www\site\app\Models\Front\Documentos_model.php(43): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\site\app\Controllers\Front\Documentos.php(21): App\Models\Front\Documentos_model->getPesquisa('lista')
+#6 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Documentos->index()
+#7 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Documentos))
+#8 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-03-21 09:24:49 --> Unknown column 'int_titulo.nome' in 'where clause'
+#0 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `int_doc...')
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `int_doc...')
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `int_doc...')
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `int_doc...', Array, false)
+#4 C:\wamp64\www\site\app\Models\Front\Documentos_model.php(43): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\site\app\Controllers\Front\Documentos.php(21): App\Models\Front\Documentos_model->getPesquisa('lista')
+#6 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Documentos->index()
+#7 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Documentos))
+#8 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-03-21 09:26:42 --> Undefined variable: suportes
+#0 C:\wamp64\www\site\app\Views\admin\ouvidoria\index.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\s...', 35, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\wamp64\\www\\s...')
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('admin/ouvidoria...', Array, true)
+#4 C:\wamp64\www\site\app\Controllers\Admin\Ouvidoria.php(29): view('admin/ouvidoria...', Array)
+#5 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Admin\Ouvidoria->index()
+#6 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Ouvidoria))
+#7 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-21 09:27:21 --> Undefined variable: ouvidoria
+#0 C:\wamp64\www\site\app\Views\admin\ouvidoria\index.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\s...', 35, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\wamp64\\www\\s...')
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('admin/ouvidoria...', Array, true)
+#4 C:\wamp64\www\site\app\Controllers\Admin\Ouvidoria.php(29): view('admin/ouvidoria...', Array)
+#5 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Admin\Ouvidoria->index()
+#6 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Ouvidoria))
+#7 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-21 09:27:31 --> Undefined property: stdClass::$id_user
+#0 C:\wamp64\www\site\app\Views\admin\ouvidoria\index.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\s...', 46, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\wamp64\\www\\s...')
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('admin/ouvidoria...', Array, true)
+#4 C:\wamp64\www\site\app\Controllers\Admin\Ouvidoria.php(29): view('admin/ouvidoria...', Array)
+#5 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Admin\Ouvidoria->index()
+#6 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Ouvidoria))
+#7 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-21 09:38:59 --> Undefined variable: fileName
+#0 C:\wamp64\www\site\app\Controllers\Admin\Ouvidoria.php(102): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\s...', 102, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Admin\Ouvidoria->core()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Ouvidoria))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:40:29 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:40:31 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:40:33 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:40:35 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:40:37 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:40:39 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:40:41 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:40:43 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:40:45 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:40:47 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:40:49 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:40:51 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:40:53 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:40:55 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:40:57 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:40:59 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:41:01 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:41:03 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:41:05 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:41:07 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:41:09 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:41:11 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:41:13 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:41:15 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:41:17 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:41:19 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:41:21 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:41:23 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:41:25 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:41:27 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:41:29 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:41:31 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:41:33 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:41:35 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:41:37 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:41:39 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:41:41 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:41:43 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:41:45 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:41:47 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:41:49 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:41:51 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:41:53 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:41:55 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:41:57 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:41:59 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:42:01 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:42:03 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:42:05 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:42:07 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:42:09 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:42:11 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:42:13 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:42:15 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:42:17 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:42:19 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:42:21 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:42:23 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:42:25 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:42:27 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:42:29 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:42:31 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:42:33 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:42:35 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:42:37 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:42:39 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:42:41 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:42:43 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:42:45 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:42:47 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:42:49 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:42:51 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:42:53 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:42:55 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:42:57 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:42:59 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:43:01 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:43:03 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:43:05 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:43:07 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:43:09 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:43:11 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:43:13 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:43:15 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:43:17 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:43:19 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:43:21 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:43:23 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:43:25 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:43:27 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:43:29 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:43:31 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:43:33 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:43:35 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:43:37 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:43:39 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:43:41 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:43:43 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:43:45 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:43:47 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:43:49 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:43:51 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:43:53 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:43:55 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:43:57 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:43:59 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:44:01 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:44:03 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:44:05 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:44:07 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:44:09 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:44:11 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:44:13 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:44:15 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:44:17 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:44:19 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:44:21 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:44:23 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:44:25 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:44:27 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:44:29 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:44:31 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:44:33 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:44:35 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:44:37 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:44:39 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:44:41 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:44:43 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:44:45 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:44:47 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:44:49 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:44:51 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:44:53 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:44:55 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:44:57 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:44:59 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:45:01 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:45:03 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:45:05 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:45:07 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:45:09 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:45:11 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:45:13 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:45:15 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:45:17 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:45:19 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:45:21 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:45:23 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:45:25 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:45:27 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:45:29 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:45:31 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:45:33 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:45:35 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:45:37 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:45:39 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:45:41 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:45:54 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:46:54 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:47:54 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:48:54 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:49:54 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:50:54 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:51:54 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:52:54 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:53:54 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:54:54 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:55:54 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:56:54 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:57:54 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:58:54 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 09:59:54 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 10:00:54 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 10:10:19 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 10:10:21 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 10:10:23 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 10:10:25 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 10:10:27 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 10:12:18 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 10:41:11 --> Undefined offset: 0
+#0 C:\wamp64\www\site\app\Controllers\Front\Chat.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\s...', 113, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->getUsers()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-03-21 10:50:34 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'OR incoming_msg_id = ) ORDER BY msg_id DESC LIMIT 1' at line 3 in C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT * FROM m...')
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM m...')
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM m...')
+#3 C:\wamp64\www\site\app\Controllers\Front\Chat.php(203): CodeIgniter\Database\BaseConnection->query('SELECT * FROM m...')
+#4 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->searchUser()
+#5 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#6 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2023-03-21 10:50:34 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'OR incoming_msg_id = ) ORDER BY msg_id DESC LIMIT 1' at line 3 in C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT * FROM m...')
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM m...')
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM m...')
+#3 C:\wamp64\www\site\app\Controllers\Front\Chat.php(203): CodeIgniter\Database\BaseConnection->query('SELECT * FROM m...')
+#4 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->searchUser()
+#5 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#6 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2023-03-21 10:50:35 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'OR incoming_msg_id = ) ORDER BY msg_id DESC LIMIT 1' at line 3 in C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT * FROM m...')
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM m...')
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM m...')
+#3 C:\wamp64\www\site\app\Controllers\Front\Chat.php(203): CodeIgniter\Database\BaseConnection->query('SELECT * FROM m...')
+#4 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->searchUser()
+#5 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#6 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2023-03-21 10:50:35 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'OR incoming_msg_id = ) ORDER BY msg_id DESC LIMIT 1' at line 3 in C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT * FROM m...')
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM m...')
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM m...')
+#3 C:\wamp64\www\site\app\Controllers\Front\Chat.php(203): CodeIgniter\Database\BaseConnection->query('SELECT * FROM m...')
+#4 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->searchUser()
+#5 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#6 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2023-03-21 10:50:35 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'OR incoming_msg_id = ) ORDER BY msg_id DESC LIMIT 1' at line 3 in C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT * FROM m...')
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM m...')
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM m...')
+#3 C:\wamp64\www\site\app\Controllers\Front\Chat.php(203): CodeIgniter\Database\BaseConnection->query('SELECT * FROM m...')
+#4 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Chat->searchUser()
+#5 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Chat))
+#6 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2023-03-21 11:19:40 --> mysqli_sql_exception: Column 'nascimento' cannot be null in C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `vz...')
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `vz...')
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `vz...')
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2265): CodeIgniter\Database\BaseConnection->query('INSERT INTO `vz...', Array, false)
+#4 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\site\vendor\codeigniter4\framework\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp64\www\site\app\Controllers\Front\SignupController.php(50): CodeIgniter\Model->insert(Array)
+#8 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\SignupController->store()
+#9 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\SignupController))
+#10 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}

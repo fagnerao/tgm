@@ -1,0 +1,6 @@
+CRITICAL - 2021-11-30 13:52:39 --> Class 'App\Controllers\Front\Pagina_model' not found
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Pesquisa->index()
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Pesquisa))
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}

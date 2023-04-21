@@ -77,10 +77,10 @@ class Eventos extends Controller{
             $dados_salvar['id']      = $this->request->getVar('id');
             $dados_salvar['id_user'] = $id_user;
             $dados_salvar['title']   = $this->request->getVar('title');
-            $dados_salvar['start']   = date("Y-m-d H:m:s", strtotime($this->request->getVar('start')));
-            $dados_salvar['end']     = date("Y-m-d H:m:s", strtotime($this->request->getVar('end')));
+            $dados_salvar['start']   = $this->request->getVar('start');
+            $dados_salvar['end']     = $this->request->getVar('end');
             $dados_salvar['color']   = $color;
-            $dados_salvar['private']     = $this->request->getVar('private');
+            $dados_salvar['private'] = $this->request->getVar('private');
 
             $model->save($dados_salvar);
            

@@ -1,0 +1,684 @@
+CRITICAL - 2022-04-18 11:23:18 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-18 11:23:18 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-18 13:55:48 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-18 13:55:48 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-18 13:55:49 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-18 13:55:59 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-18 13:55:59 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-18 13:55:59 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-18 13:55:59 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-18 13:56:05 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-18 13:56:05 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-18 13:56:05 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-18 13:56:05 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-18 13:56:12 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-18 13:56:12 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-18 13:56:13 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-18 13:56:13 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-18 13:56:27 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-18 13:56:28 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-18 13:56:28 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-18 13:56:39 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-18 13:56:39 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-18 13:56:39 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-18 13:56:42 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-18 13:56:42 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-18 13:56:42 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-18 13:56:51 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-18 13:56:51 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-18 13:56:51 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-18 13:56:56 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-18 13:56:57 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-18 13:56:57 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-18 13:57:04 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-18 13:57:04 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-18 13:57:04 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-18 14:00:04 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-18 14:00:04 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-18 14:00:05 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-18 14:06:21 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-18 14:06:21 --> Undefined variable: banners
+#0 C:\alaragon\www\site\ci4\app\Views\admin\votos\index.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\alaragon\\www...', 51, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\alaragon\\www...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('admin/votos/ind...', Array, true)
+#4 C:\alaragon\www\site\ci4\app\Controllers\Admin\Votos.php(16): view('admin/votos/ind...', Array)
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Admin\Votos->index()
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Votos))
+#7 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-18 14:06:50 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-18 14:06:50 --> Undefined property: stdClass::$imagem
+#0 C:\alaragon\www\site\ci4\app\Views\admin\votos\index.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\alaragon\\www...', 57, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\alaragon\\www...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('admin/votos/ind...', Array, true)
+#4 C:\alaragon\www\site\ci4\app\Controllers\Admin\Votos.php(16): view('admin/votos/ind...', Array)
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Admin\Votos->index()
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Votos))
+#7 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-18 14:11:17 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-18 14:11:17 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-18 14:11:18 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-18 14:14:28 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-18 14:14:28 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-18 14:14:29 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-18 14:22:28 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+ERROR - 2022-04-18 14:22:28 --> mysqli_sql_exception: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'site.c.nome' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT c.numero...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT c.numero...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT c.numero...')
+#3 C:\alaragon\www\site\ci4\app\Controllers\Admin\Votos.php(13): CodeIgniter\Database\BaseConnection->query('SELECT c.numero...')
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Admin\Votos->index()
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Votos))
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-18 14:22:28 --> Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'site.c.nome' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT c.numero...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT c.numero...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT c.numero...')
+#3 C:\alaragon\www\site\ci4\app\Controllers\Admin\Votos.php(13): CodeIgniter\Database\BaseConnection->query('SELECT c.numero...')
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Admin\Votos->index()
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Votos))
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-18 14:23:58 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+ERROR - 2022-04-18 14:23:58 --> mysqli_sql_exception: In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'site.c.numero'; this is incompatible with sql_mode=only_full_group_by in C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT c.numero...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT c.numero...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT c.numero...')
+#3 C:\alaragon\www\site\ci4\app\Controllers\Admin\Votos.php(13): CodeIgniter\Database\BaseConnection->query('SELECT c.numero...')
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Admin\Votos->index()
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Votos))
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-18 14:23:58 --> In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'site.c.numero'; this is incompatible with sql_mode=only_full_group_by
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT c.numero...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT c.numero...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT c.numero...')
+#3 C:\alaragon\www\site\ci4\app\Controllers\Admin\Votos.php(13): CodeIgniter\Database\BaseConnection->query('SELECT c.numero...')
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Admin\Votos->index()
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Votos))
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-18 14:28:49 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+ERROR - 2022-04-18 14:28:49 --> mysqli_sql_exception: Unknown column 'vts_canditados.numero' in 'field list' in C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT vts_cand...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT vts_cand...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT vts_cand...')
+#3 C:\alaragon\www\site\ci4\app\Controllers\Admin\Votos.php(13): CodeIgniter\Database\BaseConnection->query('SELECT vts_cand...')
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Admin\Votos->index()
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Votos))
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-18 14:28:49 --> Unknown column 'vts_canditados.numero' in 'field list'
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT vts_cand...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT vts_cand...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT vts_cand...')
+#3 C:\alaragon\www\site\ci4\app\Controllers\Admin\Votos.php(13): CodeIgniter\Database\BaseConnection->query('SELECT vts_cand...')
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Admin\Votos->index()
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Votos))
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-18 14:29:33 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+ERROR - 2022-04-18 14:29:33 --> mysqli_sql_exception: Table 'site.vts_candidatos' doesn't exist in C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT vts_cand...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT vts_cand...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT vts_cand...')
+#3 C:\alaragon\www\site\ci4\app\Controllers\Admin\Votos.php(13): CodeIgniter\Database\BaseConnection->query('SELECT vts_cand...')
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Admin\Votos->index()
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Votos))
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-18 14:29:33 --> Table 'site.vts_candidatos' doesn't exist
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT vts_cand...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT vts_cand...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT vts_cand...')
+#3 C:\alaragon\www\site\ci4\app\Controllers\Admin\Votos.php(13): CodeIgniter\Database\BaseConnection->query('SELECT vts_cand...')
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Admin\Votos->index()
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Votos))
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-18 14:30:01 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+ERROR - 2022-04-18 14:30:01 --> mysqli_sql_exception: Unknown column 'vts_votos.numero' in 'on clause' in C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT vts_cand...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT vts_cand...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT vts_cand...')
+#3 C:\alaragon\www\site\ci4\app\Controllers\Admin\Votos.php(13): CodeIgniter\Database\BaseConnection->query('SELECT vts_cand...')
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Admin\Votos->index()
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Votos))
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-18 14:30:01 --> Unknown column 'vts_votos.numero' in 'on clause'
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT vts_cand...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT vts_cand...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT vts_cand...')
+#3 C:\alaragon\www\site\ci4\app\Controllers\Admin\Votos.php(13): CodeIgniter\Database\BaseConnection->query('SELECT vts_cand...')
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Admin\Votos->index()
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Votos))
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-18 14:30:49 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+ERROR - 2022-04-18 14:30:49 --> mysqli_sql_exception: Unknown column 'vts_votos.numero' in 'on clause' in C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT vts_cand...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT vts_cand...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT vts_cand...')
+#3 C:\alaragon\www\site\ci4\app\Controllers\Admin\Votos.php(13): CodeIgniter\Database\BaseConnection->query('SELECT vts_cand...')
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Admin\Votos->index()
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Votos))
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-18 14:30:49 --> Unknown column 'vts_votos.numero' in 'on clause'
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT vts_cand...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT vts_cand...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT vts_cand...')
+#3 C:\alaragon\www\site\ci4\app\Controllers\Admin\Votos.php(13): CodeIgniter\Database\BaseConnection->query('SELECT vts_cand...')
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Admin\Votos->index()
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Votos))
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-18 14:33:29 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+ERROR - 2022-04-18 14:33:29 --> mysqli_sql_exception: Unknown column 'vts_votos.num_candidatos' in 'on clause' in C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT vts_cand...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT vts_cand...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT vts_cand...')
+#3 C:\alaragon\www\site\ci4\app\Controllers\Admin\Votos.php(13): CodeIgniter\Database\BaseConnection->query('SELECT vts_cand...')
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Admin\Votos->index()
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Votos))
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-18 14:33:29 --> Unknown column 'vts_votos.num_candidatos' in 'on clause'
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT vts_cand...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT vts_cand...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT vts_cand...')
+#3 C:\alaragon\www\site\ci4\app\Controllers\Admin\Votos.php(13): CodeIgniter\Database\BaseConnection->query('SELECT vts_cand...')
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Admin\Votos->index()
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Votos))
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-18 14:33:48 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+ERROR - 2022-04-18 14:33:48 --> mysqli_sql_exception: Unknown column 'vts_candidato.numero' in 'on clause' in C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT vts_cand...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT vts_cand...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT vts_cand...')
+#3 C:\alaragon\www\site\ci4\app\Controllers\Admin\Votos.php(13): CodeIgniter\Database\BaseConnection->query('SELECT vts_cand...')
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Admin\Votos->index()
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Votos))
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-18 14:33:48 --> Unknown column 'vts_candidato.numero' in 'on clause'
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT vts_cand...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT vts_cand...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT vts_cand...')
+#3 C:\alaragon\www\site\ci4\app\Controllers\Admin\Votos.php(13): CodeIgniter\Database\BaseConnection->query('SELECT vts_cand...')
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Admin\Votos->index()
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Votos))
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-18 14:34:30 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+ERROR - 2022-04-18 14:34:30 --> mysqli_sql_exception: Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'site.vts_candidatos.numero' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT vts_cand...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT vts_cand...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT vts_cand...')
+#3 C:\alaragon\www\site\ci4\app\Controllers\Admin\Votos.php(13): CodeIgniter\Database\BaseConnection->query('SELECT vts_cand...')
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Admin\Votos->index()
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Votos))
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-18 14:34:30 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'site.vts_candidatos.numero' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT vts_cand...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT vts_cand...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT vts_cand...')
+#3 C:\alaragon\www\site\ci4\app\Controllers\Admin\Votos.php(13): CodeIgniter\Database\BaseConnection->query('SELECT vts_cand...')
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Admin\Votos->index()
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Votos))
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-18 14:34:48 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+ERROR - 2022-04-18 14:34:48 --> mysqli_sql_exception: In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'site.vts_candidatos.numero'; this is incompatible with sql_mode=only_full_group_by in C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT vts_cand...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT vts_cand...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT vts_cand...')
+#3 C:\alaragon\www\site\ci4\app\Controllers\Admin\Votos.php(13): CodeIgniter\Database\BaseConnection->query('SELECT vts_cand...')
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Admin\Votos->index()
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Votos))
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-18 14:34:48 --> In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'site.vts_candidatos.numero'; this is incompatible with sql_mode=only_full_group_by
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT vts_cand...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT vts_cand...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT vts_cand...')
+#3 C:\alaragon\www\site\ci4\app\Controllers\Admin\Votos.php(13): CodeIgniter\Database\BaseConnection->query('SELECT vts_cand...')
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Admin\Votos->index()
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Votos))
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-18 14:35:06 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+ERROR - 2022-04-18 14:35:06 --> mysqli_sql_exception: In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'site.vts_candidatos.numero'; this is incompatible with sql_mode=only_full_group_by in C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT vts_cand...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT vts_cand...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT vts_cand...')
+#3 C:\alaragon\www\site\ci4\app\Controllers\Admin\Votos.php(13): CodeIgniter\Database\BaseConnection->query('SELECT vts_cand...')
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Admin\Votos->index()
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Votos))
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-18 14:35:06 --> In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'site.vts_candidatos.numero'; this is incompatible with sql_mode=only_full_group_by
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT vts_cand...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT vts_cand...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT vts_cand...')
+#3 C:\alaragon\www\site\ci4\app\Controllers\Admin\Votos.php(13): CodeIgniter\Database\BaseConnection->query('SELECT vts_cand...')
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Admin\Votos->index()
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Votos))
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-18 14:36:02 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+ERROR - 2022-04-18 14:36:02 --> mysqli_sql_exception: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'site.vts_candidatos.nome' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT vts_cand...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT vts_cand...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT vts_cand...')
+#3 C:\alaragon\www\site\ci4\app\Controllers\Admin\Votos.php(13): CodeIgniter\Database\BaseConnection->query('SELECT vts_cand...')
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Admin\Votos->index()
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Votos))
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-18 14:36:02 --> Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'site.vts_candidatos.nome' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT vts_cand...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT vts_cand...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT vts_cand...')
+#3 C:\alaragon\www\site\ci4\app\Controllers\Admin\Votos.php(13): CodeIgniter\Database\BaseConnection->query('SELECT vts_cand...')
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Admin\Votos->index()
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Votos))
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-18 14:38:14 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+ERROR - 2022-04-18 14:38:14 --> mysqli_sql_exception: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'site.c.nome' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT c.numero...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT c.numero...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT c.numero...')
+#3 C:\alaragon\www\site\ci4\app\Controllers\Admin\Votos.php(13): CodeIgniter\Database\BaseConnection->query('SELECT c.numero...')
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Admin\Votos->index()
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Votos))
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-18 14:38:14 --> Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'site.c.nome' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT c.numero...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT c.numero...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT c.numero...')
+#3 C:\alaragon\www\site\ci4\app\Controllers\Admin\Votos.php(13): CodeIgniter\Database\BaseConnection->query('SELECT c.numero...')
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Admin\Votos->index()
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Votos))
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-18 14:41:55 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+ERROR - 2022-04-18 14:41:55 --> mysqli_sql_exception: In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'site.c.numero'; this is incompatible with sql_mode=only_full_group_by in C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT c.numero...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT c.numero...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT c.numero...')
+#3 C:\alaragon\www\site\ci4\app\Controllers\Admin\Votos.php(13): CodeIgniter\Database\BaseConnection->query('SELECT c.numero...')
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Admin\Votos->index()
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Votos))
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-18 14:41:55 --> In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'site.c.numero'; this is incompatible with sql_mode=only_full_group_by
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT c.numero...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT c.numero...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT c.numero...')
+#3 C:\alaragon\www\site\ci4\app\Controllers\Admin\Votos.php(13): CodeIgniter\Database\BaseConnection->query('SELECT c.numero...')
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Admin\Votos->index()
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Votos))
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-18 14:43:36 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+ERROR - 2022-04-18 14:43:36 --> mysqli_sql_exception: In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'site.c.numero'; this is incompatible with sql_mode=only_full_group_by in C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT c.numero...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT c.numero...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT c.numero...')
+#3 C:\alaragon\www\site\ci4\app\Controllers\Admin\Votos.php(13): CodeIgniter\Database\BaseConnection->query('SELECT c.numero...')
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Admin\Votos->index()
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Votos))
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-18 14:43:36 --> In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'site.c.numero'; this is incompatible with sql_mode=only_full_group_by
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT c.numero...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT c.numero...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT c.numero...')
+#3 C:\alaragon\www\site\ci4\app\Controllers\Admin\Votos.php(13): CodeIgniter\Database\BaseConnection->query('SELECT c.numero...')
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Admin\Votos->index()
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Votos))
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-18 14:45:25 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+ERROR - 2022-04-18 14:45:25 --> mysqli_sql_exception: Table 'site.votos' doesn't exist in C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT * from v...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * from v...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * from v...')
+#3 C:\alaragon\www\site\ci4\app\Controllers\Admin\Votos.php(13): CodeIgniter\Database\BaseConnection->query('SELECT * from v...')
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Admin\Votos->index()
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Votos))
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-18 14:45:25 --> Table 'site.votos' doesn't exist
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT * from v...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * from v...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * from v...')
+#3 C:\alaragon\www\site\ci4\app\Controllers\Admin\Votos.php(13): CodeIgniter\Database\BaseConnection->query('SELECT * from v...')
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Admin\Votos->index()
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Votos))
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-18 14:45:34 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+ERROR - 2022-04-18 14:45:34 --> mysqli_sql_exception: Table 'site.vtsvotos' doesn't exist in C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT * from v...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * from v...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * from v...')
+#3 C:\alaragon\www\site\ci4\app\Controllers\Admin\Votos.php(13): CodeIgniter\Database\BaseConnection->query('SELECT * from v...')
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Admin\Votos->index()
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Votos))
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-18 14:45:34 --> Table 'site.vtsvotos' doesn't exist
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT * from v...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * from v...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * from v...')
+#3 C:\alaragon\www\site\ci4\app\Controllers\Admin\Votos.php(13): CodeIgniter\Database\BaseConnection->query('SELECT * from v...')
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Admin\Votos->index()
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Votos))
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-18 14:45:42 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-18 14:45:42 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-18 14:45:43 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-18 14:46:27 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-18 14:46:27 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-18 14:46:28 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-18 14:49:28 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-18 14:49:29 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-18 14:49:30 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-18 14:50:01 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-18 14:50:01 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-18 14:50:02 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-18 14:52:06 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-18 14:52:06 --> Undefined variable: votos
+#0 C:\alaragon\www\site\ci4\app\Controllers\Admin\Votos.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\alaragon\\www...', 14, Array)
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Admin\Votos->index()
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Votos))
+#3 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-18 14:52:23 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-18 14:52:23 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-18 14:52:25 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-18 14:52:51 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+ERROR - 2022-04-18 14:52:51 --> mysqli_sql_exception: Table 'site.wp7fc_candidados' doesn't exist in C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT c.numero...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT c.numero...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT c.numero...')
+#3 C:\alaragon\www\site\ci4\app\Controllers\Admin\Votos.php(13): CodeIgniter\Database\BaseConnection->query('SELECT c.numero...')
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Admin\Votos->index()
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Votos))
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-18 14:52:51 --> Table 'site.wp7fc_candidados' doesn't exist
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT c.numero...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT c.numero...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT c.numero...')
+#3 C:\alaragon\www\site\ci4\app\Controllers\Admin\Votos.php(13): CodeIgniter\Database\BaseConnection->query('SELECT c.numero...')
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Admin\Votos->index()
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Votos))
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-18 14:53:05 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+ERROR - 2022-04-18 14:53:05 --> mysqli_sql_exception: Table 'site.wp7fc_candidatos' doesn't exist in C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT c.numero...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT c.numero...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT c.numero...')
+#3 C:\alaragon\www\site\ci4\app\Controllers\Admin\Votos.php(13): CodeIgniter\Database\BaseConnection->query('SELECT c.numero...')
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Admin\Votos->index()
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Votos))
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-18 14:53:05 --> Table 'site.wp7fc_candidatos' doesn't exist
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT c.numero...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT c.numero...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT c.numero...')
+#3 C:\alaragon\www\site\ci4\app\Controllers\Admin\Votos.php(13): CodeIgniter\Database\BaseConnection->query('SELECT c.numero...')
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Admin\Votos->index()
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Votos))
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-18 14:53:19 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+ERROR - 2022-04-18 14:53:19 --> mysqli_sql_exception: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'site.c.nome' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT c.numero...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT c.numero...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT c.numero...')
+#3 C:\alaragon\www\site\ci4\app\Controllers\Admin\Votos.php(13): CodeIgniter\Database\BaseConnection->query('SELECT c.numero...')
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Admin\Votos->index()
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Votos))
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-18 14:53:19 --> Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'site.c.nome' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT c.numero...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT c.numero...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT c.numero...')
+#3 C:\alaragon\www\site\ci4\app\Controllers\Admin\Votos.php(13): CodeIgniter\Database\BaseConnection->query('SELECT c.numero...')
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Admin\Votos->index()
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Votos))
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-18 14:53:41 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+ERROR - 2022-04-18 14:53:41 --> mysqli_sql_exception: In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'site.c.numero'; this is incompatible with sql_mode=only_full_group_by in C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT c.numero...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT c.numero...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT c.numero...')
+#3 C:\alaragon\www\site\ci4\app\Controllers\Admin\Votos.php(13): CodeIgniter\Database\BaseConnection->query('SELECT c.numero...')
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Admin\Votos->index()
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Votos))
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-18 14:53:41 --> In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'site.c.numero'; this is incompatible with sql_mode=only_full_group_by
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT c.numero...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT c.numero...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT c.numero...')
+#3 C:\alaragon\www\site\ci4\app\Controllers\Admin\Votos.php(13): CodeIgniter\Database\BaseConnection->query('SELECT c.numero...')
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Admin\Votos->index()
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Votos))
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-18 14:54:21 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+ERROR - 2022-04-18 14:54:21 --> mysqli_sql_exception: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'site.c.nome' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT c.numero...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT c.numero...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT c.numero...')
+#3 C:\alaragon\www\site\ci4\app\Controllers\Admin\Votos.php(13): CodeIgniter\Database\BaseConnection->query('SELECT c.numero...')
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Admin\Votos->index()
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Votos))
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-18 14:54:21 --> Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'site.c.nome' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT c.numero...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT c.numero...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT c.numero...')
+#3 C:\alaragon\www\site\ci4\app\Controllers\Admin\Votos.php(13): CodeIgniter\Database\BaseConnection->query('SELECT c.numero...')
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Admin\Votos->index()
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Votos))
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-18 14:55:28 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+ERROR - 2022-04-18 14:55:28 --> mysqli_sql_exception: In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'site.c.numero'; this is incompatible with sql_mode=only_full_group_by in C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT c.numero...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT c.numero...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT c.numero...')
+#3 C:\alaragon\www\site\ci4\app\Controllers\Admin\Votos.php(13): CodeIgniter\Database\BaseConnection->query('SELECT c.numero...')
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Admin\Votos->index()
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Votos))
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-18 14:55:28 --> In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'site.c.numero'; this is incompatible with sql_mode=only_full_group_by
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT c.numero...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT c.numero...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT c.numero...')
+#3 C:\alaragon\www\site\ci4\app\Controllers\Admin\Votos.php(13): CodeIgniter\Database\BaseConnection->query('SELECT c.numero...')
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Admin\Votos->index()
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Votos))
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-18 15:05:27 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+ERROR - 2022-04-18 15:05:27 --> mysqli_sql_exception: In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'site.c.numero'; this is incompatible with sql_mode=only_full_group_by in C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT c.numero...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT c.numero...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT c.numero...')
+#3 C:\alaragon\www\site\ci4\app\Controllers\Admin\Votos.php(13): CodeIgniter\Database\BaseConnection->query('SELECT c.numero...')
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Admin\Votos->index()
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Votos))
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-18 15:05:27 --> In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'site.c.numero'; this is incompatible with sql_mode=only_full_group_by
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT c.numero...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT c.numero...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT c.numero...')
+#3 C:\alaragon\www\site\ci4\app\Controllers\Admin\Votos.php(13): CodeIgniter\Database\BaseConnection->query('SELECT c.numero...')
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Admin\Votos->index()
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Votos))
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-18 15:07:30 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-18 15:07:31 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-18 15:07:32 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-18 15:09:38 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+ERROR - 2022-04-18 15:09:38 --> mysqli_sql_exception: Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'site.c.nome' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT c.nome, ...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT c.nome, ...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT c.nome, ...')
+#3 C:\alaragon\www\site\ci4\app\Controllers\Admin\Votos.php(13): CodeIgniter\Database\BaseConnection->query('SELECT c.nome, ...')
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Admin\Votos->index()
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Votos))
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-18 15:09:38 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'site.c.nome' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT c.nome, ...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT c.nome, ...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT c.nome, ...')
+#3 C:\alaragon\www\site\ci4\app\Controllers\Admin\Votos.php(13): CodeIgniter\Database\BaseConnection->query('SELECT c.nome, ...')
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Admin\Votos->index()
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Votos))
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-18 15:09:53 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-18 15:09:53 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-18 15:09:54 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-18 15:10:12 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+ERROR - 2022-04-18 15:10:12 --> mysqli_sql_exception: Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'site.c.nome' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT c.nome, ...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT c.nome, ...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT c.nome, ...')
+#3 C:\alaragon\www\site\ci4\app\Controllers\Admin\Votos.php(13): CodeIgniter\Database\BaseConnection->query('SELECT c.nome, ...')
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Admin\Votos->index()
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Votos))
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-18 15:10:12 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'site.c.nome' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT c.nome, ...')
+#1 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT c.nome, ...')
+#2 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT c.nome, ...')
+#3 C:\alaragon\www\site\ci4\app\Controllers\Admin\Votos.php(13): CodeIgniter\Database\BaseConnection->query('SELECT c.nome, ...')
+#4 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Admin\Votos->index()
+#5 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Votos))
+#6 C:\alaragon\www\site\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\alaragon\www\site\public_html\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-18 15:11:26 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-18 15:11:26 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-18 15:11:27 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-18 15:17:14 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-18 15:17:15 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-18 15:17:16 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-18 15:21:32 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-18 15:21:32 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-18 15:21:33 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-18 15:21:35 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-18 15:21:35 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-18 15:21:35 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-18 15:26:00 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-18 15:28:54 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-18 15:32:19 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.

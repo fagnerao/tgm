@@ -1,0 +1,66 @@
+ERROR - 2021-10-04 11:31:09 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+ERROR - 2021-10-04 11:31:51 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+ERROR - 2021-10-04 11:32:59 --> Error connecting to the database: Class 'SQLite3' not found
+CRITICAL - 2021-10-04 11:51:54 --> Declaration of Myth\Auth\Filters\LoginFilter::before(CodeIgniter\HTTP\RequestInterface $request) must be compatible with CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = NULL)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-10-04 11:53:57 --> Declaration of Myth\Auth\Filters\LoginFilter::after(CodeIgniter\HTTP\RequestInterface $request, CodeIgniter\HTTP\ResponseInterface $response) must be compatible with CodeIgniter\Filters\FilterInterface::after(CodeIgniter\HTTP\RequestInterface $request, CodeIgniter\HTTP\ResponseInterface $response, $arguments = NULL)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-10-04 12:52:04 --> Class 'App\Models\Inicio_model' not found
+#0 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Admin\Inicio->index()
+#1 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Inicio))
+#2 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\alaragon\www\site\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-04 12:52:36 --> Cannot declare class App\Models\Produtos_model, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-10-04 12:53:12 --> Cannot declare class App\Models\Inicio_model, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-10-04 12:54:47 --> Cannot declare class App\Models\Inicio_model, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-10-04 13:24:13 --> Undefined variable: auth
+#0 C:\alaragon\www\site\app\Controllers\admin\inicio.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\alaragon\\www...', 19, Array)
+#1 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Admin\Inicio->sair()
+#2 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Inicio))
+#3 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-04 13:26:46 --> Undefined variable: auth
+#0 C:\alaragon\www\site\app\Controllers\admin\inicio.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\alaragon\\www...', 19, Array)
+#1 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Admin\Inicio->sair()
+#2 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Inicio))
+#3 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-04 13:26:48 --> Undefined variable: auth
+#0 C:\alaragon\www\site\app\Controllers\admin\inicio.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\alaragon\\www...', 19, Array)
+#1 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Admin\Inicio->sair()
+#2 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Inicio))
+#3 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-04 13:42:28 --> Undefined variable: auth
+#0 C:\alaragon\www\site\app\Controllers\admin\inicio.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\alaragon\\www...', 19, Array)
+#1 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Admin\Inicio->sair()
+#2 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Inicio))
+#3 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-04 13:43:52 --> syntax error, unexpected 'use' (T_USE)
+#0 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('admin/inicio/sa...')
+#1 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('admin/inicio/sa...')
+#2 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(384): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-04 13:49:45 --> Undefined variable: auth
+#0 C:\alaragon\www\site\app\Controllers\admin\inicio.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\alaragon\\www...', 19, Array)
+#1 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Admin\Inicio->sair()
+#2 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Inicio))
+#3 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}

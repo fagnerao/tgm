@@ -1,0 +1,418 @@
+CRITICAL - 2023-03-17 09:30:56 --> Class 'App\Models\Admin\Ouvidoria_model' not found
+#0 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Admin\Ouvidoria->index()
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Ouvidoria))
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-03-17 09:31:06 --> Class 'App\Models\Admin\Ouvidoria_model' not found
+#0 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Admin\Ouvidoria->index()
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Ouvidoria))
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-03-17 09:33:47 --> Class 'App\Models\Admin\Ouvidoria_model' not found
+#0 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Admin\Ouvidoria->index()
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Ouvidoria))
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-03-17 09:36:36 --> Class 'App\Models\Admin\Ouvidoria_model' not found
+#0 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Admin\Ouvidoria->index()
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Ouvidoria))
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-03-17 09:37:08 --> Class 'App\Models\Admin\Ouvidoria_model' not found
+#0 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Admin\Ouvidoria->index()
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Ouvidoria))
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-03-17 09:39:19 --> Class 'App\Models\Admin\Ouvidoria_model' not found
+#0 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Admin\Ouvidoria->index()
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Ouvidoria))
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-03-17 09:40:28 --> Class 'App\Models\Admin\Ouvidoria_model' not found
+#0 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Admin\Ouvidoria->index()
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Ouvidoria))
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-03-17 09:40:42 --> Class 'App\Models\Admin\Ouvidoria_model' not found
+#0 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Admin\Ouvidoria->index()
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Ouvidoria))
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-03-17 09:43:22 --> Trying to get property 'private' of non-object
+#0 C:\wamp64\www\site\app\Views\admin\eventos\modulo.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\wamp64\\www\\s...', 39, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\wamp64\\www\\s...')
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('admin/eventos/m...', Array, true)
+#4 C:\wamp64\www\site\app\Controllers\Admin\Ouvidoria.php(63): view('admin/eventos/m...', Array)
+#5 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Admin\Ouvidoria->create('1')
+#6 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Ouvidoria))
+#7 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-17 09:55:35 --> Argument 1 passed to CodeIgniter\Model::__construct() must be an instance of CodeIgniter\Database\ConnectionInterface or null, string given, called in C:\wamp64\www\site\app\Controllers\Admin\Ouvidoria.php on line 57
+#0 C:\wamp64\www\site\app\Controllers\Admin\Ouvidoria.php(57): CodeIgniter\Model->__construct('1')
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Admin\Ouvidoria->create('1')
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Ouvidoria))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-17 09:57:16 --> Argument 1 passed to CodeIgniter\Model::__construct() must be an instance of CodeIgniter\Database\ConnectionInterface or null, string given, called in C:\wamp64\www\site\app\Controllers\Admin\Ouvidoria.php on line 57
+#0 C:\wamp64\www\site\app\Controllers\Admin\Ouvidoria.php(57): CodeIgniter\Model->__construct('1')
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Admin\Ouvidoria->create('1')
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Ouvidoria))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-17 09:57:51 --> Undefined variable: status
+#0 C:\wamp64\www\site\app\Views\admin\ouvidoria\modulo.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\s...', 40, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\wamp64\\www\\s...')
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('admin/ouvidoria...', Array, true)
+#4 C:\wamp64\www\site\app\Controllers\Admin\Ouvidoria.php(63): view('admin/ouvidoria...', Array)
+#5 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Admin\Ouvidoria->create('1')
+#6 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Ouvidoria))
+#7 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-17 09:58:14 --> Undefined variable: status
+#0 C:\wamp64\www\site\app\Views\admin\ouvidoria\modulo.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\s...', 37, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\wamp64\\www\\s...')
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('admin/ouvidoria...', Array, true)
+#4 C:\wamp64\www\site\app\Controllers\Admin\Ouvidoria.php(63): view('admin/ouvidoria...', Array)
+#5 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Admin\Ouvidoria->create('1')
+#6 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Ouvidoria))
+#7 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-17 09:58:21 --> Trying to get property 'status' of non-object
+#0 C:\wamp64\www\site\app\Views\admin\ouvidoria\modulo.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\wamp64\\www\\s...', 37, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\wamp64\\www\\s...')
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('admin/ouvidoria...', Array, true)
+#4 C:\wamp64\www\site\app\Controllers\Admin\Ouvidoria.php(63): view('admin/ouvidoria...', Array)
+#5 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Admin\Ouvidoria->create('1')
+#6 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Ouvidoria))
+#7 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-17 10:35:28 --> syntax error, unexpected ''- '' (T_CONSTANT_ENCAPSED_STRING), expecting ';' or ','
+#0 C:\wamp64\www\site\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('admin/ouvidoria...', Array, true)
+#2 C:\wamp64\www\site\app\Controllers\Admin\Ouvidoria.php(63): view('admin/ouvidoria...', Array)
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Admin\Ouvidoria->create('1')
+#4 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Ouvidoria))
+#5 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2023-03-17 10:49:27 --> mysqli_sql_exception: Column 'mensagem' cannot be null in C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `in...')
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `in...')
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `in...')
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2265): CodeIgniter\Database\BaseConnection->query('INSERT INTO `in...', Array, false)
+#4 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\site\vendor\codeigniter4\framework\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp64\www\site\app\Controllers\Admin\Ouvidoria.php(87): CodeIgniter\Model->insert(Array)
+#8 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Admin\Ouvidoria->core()
+#9 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Ouvidoria))
+#10 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-03-17 10:49:27 --> Column 'mensagem' cannot be null
+#0 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `in...')
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `in...')
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `in...')
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2265): CodeIgniter\Database\BaseConnection->query('INSERT INTO `in...', Array, false)
+#4 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\site\vendor\codeigniter4\framework\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp64\www\site\app\Controllers\Admin\Ouvidoria.php(87): CodeIgniter\Model->insert(Array)
+#8 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Admin\Ouvidoria->core()
+#9 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Ouvidoria))
+#10 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-03-17 10:50:01 --> mysqli_sql_exception: Column 'mensagem' cannot be null in C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `in...')
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `in...')
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `in...')
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2265): CodeIgniter\Database\BaseConnection->query('INSERT INTO `in...', Array, false)
+#4 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\site\vendor\codeigniter4\framework\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp64\www\site\app\Controllers\Admin\Ouvidoria.php(87): CodeIgniter\Model->insert(Array)
+#8 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Admin\Ouvidoria->core()
+#9 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Ouvidoria))
+#10 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-03-17 10:50:01 --> Column 'mensagem' cannot be null
+#0 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `in...')
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `in...')
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `in...')
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2265): CodeIgniter\Database\BaseConnection->query('INSERT INTO `in...', Array, false)
+#4 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\site\vendor\codeigniter4\framework\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp64\www\site\app\Controllers\Admin\Ouvidoria.php(87): CodeIgniter\Model->insert(Array)
+#8 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Admin\Ouvidoria->core()
+#9 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Ouvidoria))
+#10 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-03-17 10:50:18 --> mysqli_sql_exception: Column 'mensagem' cannot be null in C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `in...')
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `in...')
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `in...')
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2265): CodeIgniter\Database\BaseConnection->query('INSERT INTO `in...', Array, false)
+#4 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\site\vendor\codeigniter4\framework\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp64\www\site\app\Controllers\Admin\Ouvidoria.php(87): CodeIgniter\Model->insert(Array)
+#8 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Admin\Ouvidoria->core()
+#9 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Ouvidoria))
+#10 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-03-17 10:50:18 --> Column 'mensagem' cannot be null
+#0 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `in...')
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `in...')
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `in...')
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2265): CodeIgniter\Database\BaseConnection->query('INSERT INTO `in...', Array, false)
+#4 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\site\vendor\codeigniter4\framework\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp64\www\site\app\Controllers\Admin\Ouvidoria.php(87): CodeIgniter\Model->insert(Array)
+#8 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Admin\Ouvidoria->core()
+#9 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Ouvidoria))
+#10 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-03-17 10:50:45 --> mysqli_sql_exception: Column 'mensagem' cannot be null in C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `in...')
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `in...')
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `in...')
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2265): CodeIgniter\Database\BaseConnection->query('INSERT INTO `in...', Array, false)
+#4 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\site\vendor\codeigniter4\framework\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp64\www\site\app\Controllers\Admin\Ouvidoria.php(87): CodeIgniter\Model->insert(Array)
+#8 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Admin\Ouvidoria->core()
+#9 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Ouvidoria))
+#10 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-03-17 10:50:45 --> Column 'mensagem' cannot be null
+#0 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `in...')
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `in...')
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `in...')
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2265): CodeIgniter\Database\BaseConnection->query('INSERT INTO `in...', Array, false)
+#4 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\site\vendor\codeigniter4\framework\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp64\www\site\app\Controllers\Admin\Ouvidoria.php(87): CodeIgniter\Model->insert(Array)
+#8 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Admin\Ouvidoria->core()
+#9 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Ouvidoria))
+#10 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-03-17 10:57:21 --> Too few arguments to function setMsg(), 2 passed in C:\wamp64\www\site\app\Controllers\Admin\Ouvidoria.php on line 94 and exactly 3 expected
+#0 C:\wamp64\www\site\app\Controllers\Admin\Ouvidoria.php(94): setMsg('msg', '<div class="ale...')
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Admin\Ouvidoria->core()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Ouvidoria))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-17 10:59:24 --> Object of class stdClass could not be converted to string
+#0 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Admin\Ouvidoria->core()
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Ouvidoria))
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-03-17 11:00:10 --> Cannot use object of type stdClass as array
+#0 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Admin\Ouvidoria->core()
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Ouvidoria))
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-03-17 11:00:26 --> implode(): Invalid arguments passed
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'implode(): Inva...', 'C:\\wamp64\\www\\s...', 93, Array)
+#1 C:\wamp64\www\site\app\Controllers\Admin\Ouvidoria.php(93): implode(' ', Object(stdClass))
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Admin\Ouvidoria->core()
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Ouvidoria))
+#4 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-17 12:14:24 --> Argument 1 passed to CodeIgniter\Model::__construct() must be an instance of CodeIgniter\Database\ConnectionInterface or null, string given, called in C:\wamp64\www\site\app\Controllers\Admin\Ouvidoria.php on line 41
+#0 C:\wamp64\www\site\app\Controllers\Admin\Ouvidoria.php(41): CodeIgniter\Model->__construct('64148380a80a8')
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Admin\Ouvidoria->getProtocolo()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Ouvidoria))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-17 12:34:58 --> Argument 1 passed to CodeIgniter\Model::__construct() must be an instance of CodeIgniter\Database\ConnectionInterface or null, string given, called in C:\wamp64\www\site\app\Controllers\Admin\Ouvidoria.php on line 41
+#0 C:\wamp64\www\site\app\Controllers\Admin\Ouvidoria.php(41): CodeIgniter\Model->__construct('64148380a80a8')
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Admin\Ouvidoria->getProtocolo()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Ouvidoria))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-17 13:28:01 --> Class 'App\Controllers\Front\Telefones_model' not found
+#0 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Documentos->index()
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Documentos))
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-03-17 13:28:18 --> Class 'App\Controllers\Front\Telefones_model' not found
+#0 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Documentos->index()
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Documentos))
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-03-17 13:30:13 --> Cannot declare class App\Models\Admin\Documentos_model, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-03-17 13:30:23 --> Cannot declare class App\Models\Admin\Documentos_model, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-03-17 13:30:37 --> Call to undefined method App\Models\Front\Documentos_model::getPesquisa
+#0 C:\wamp64\www\site\app\Controllers\Front\Documentos.php(21): CodeIgniter\Model->__call('getPesquisa', Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Documentos->index()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Documentos))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-17 13:34:46 --> Call to undefined method App\Models\Front\Documentos_model::getPesquisa
+#0 C:\wamp64\www\site\app\Controllers\Front\Documentos.php(21): CodeIgniter\Model->__call('getPesquisa', Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Documentos->index()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Documentos))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-17 13:37:19 --> Undefined property: stdClass::$name
+#0 C:\wamp64\www\site\app\Views\front\documentos\index.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\s...', 50, Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\wamp64\\www\\s...')
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('front/documento...', Array, true)
+#4 C:\wamp64\www\site\app\Controllers\Front\Documentos.php(25): view('front/documento...', Array)
+#5 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Documentos->index()
+#6 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Documentos))
+#7 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-03-17 13:59:06 --> mysqli_sql_exception: Unknown column 'int_telefones.name' in 'where clause' in C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `int_doc...')
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `int_doc...')
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `int_doc...')
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `int_doc...', Array, false)
+#4 C:\wamp64\www\site\app\Models\Front\Documentos_model.php(43): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\site\app\Controllers\Front\Documentos.php(21): App\Models\Front\Documentos_model->getPesquisa('lista')
+#6 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Documentos->index()
+#7 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Documentos))
+#8 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-03-17 13:59:06 --> Unknown column 'int_telefones.name' in 'where clause'
+#0 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `int_doc...')
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `int_doc...')
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `int_doc...')
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `int_doc...', Array, false)
+#4 C:\wamp64\www\site\app\Models\Front\Documentos_model.php(43): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\site\app\Controllers\Front\Documentos.php(21): App\Models\Front\Documentos_model->getPesquisa('lista')
+#6 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Documentos->index()
+#7 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Documentos))
+#8 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-03-17 14:02:07 --> mysqli_sql_exception: Unknown column 'name' in 'order clause' in C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `int_doc...')
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `int_doc...')
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `int_doc...')
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `int_doc...', Array, false)
+#4 C:\wamp64\www\site\app\Models\Front\Documentos_model.php(43): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\site\app\Controllers\Front\Documentos.php(21): App\Models\Front\Documentos_model->getPesquisa('lista')
+#6 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Documentos->index()
+#7 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Documentos))
+#8 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-03-17 14:02:07 --> Unknown column 'name' in 'order clause'
+#0 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `int_doc...')
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `int_doc...')
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `int_doc...')
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `int_doc...', Array, false)
+#4 C:\wamp64\www\site\app\Models\Front\Documentos_model.php(43): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\site\app\Controllers\Front\Documentos.php(21): App\Models\Front\Documentos_model->getPesquisa('lista')
+#6 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Documentos->index()
+#7 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Documentos))
+#8 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-03-17 14:11:22 --> mysqli_sql_exception: Unknown column 'int_departamentos.titulo' in 'where clause' in C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `int_doc...')
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `int_doc...')
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `int_doc...')
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `int_doc...', Array, false)
+#4 C:\wamp64\www\site\app\Models\Front\Documentos_model.php(43): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\site\app\Controllers\Front\Documentos.php(21): App\Models\Front\Documentos_model->getPesquisa('lista')
+#6 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Documentos->index()
+#7 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Documentos))
+#8 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-03-17 14:11:22 --> Unknown column 'int_departamentos.titulo' in 'where clause'
+#0 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `int_doc...')
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `int_doc...')
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `int_doc...')
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `int_doc...', Array, false)
+#4 C:\wamp64\www\site\app\Models\Front\Documentos_model.php(43): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\site\app\Controllers\Front\Documentos.php(21): App\Models\Front\Documentos_model->getPesquisa('lista')
+#6 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Documentos->index()
+#7 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Documentos))
+#8 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-03-17 15:41:12 --> Call to undefined method App\Models\Front\Documentos_model::getFiles
+#0 C:\wamp64\www\site\app\Controllers\Front\Documentos.php(38): CodeIgniter\Model->__call('getFiles', Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Documentos->getFiles()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Documentos))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-17 15:42:33 --> Call to undefined method App\Models\Front\Documentos_model::getFiles
+#0 C:\wamp64\www\site\app\Controllers\Front\Documentos.php(38): CodeIgniter\Model->__call('getFiles', Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Documentos->getFiles()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Documentos))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-17 15:42:35 --> Call to undefined method App\Models\Front\Documentos_model::getFiles
+#0 C:\wamp64\www\site\app\Controllers\Front\Documentos.php(38): CodeIgniter\Model->__call('getFiles', Array)
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Documentos->getFiles()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Documentos))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-17 15:48:48 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::asObject()
+#0 C:\wamp64\www\site\app\Controllers\Front\Documentos.php(38): App\Models\Front\Documentos_model->getFiles('2')
+#1 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(937): App\Controllers\Front\Documentos->getFiles()
+#2 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Documentos))
+#3 C:\wamp64\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\site\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

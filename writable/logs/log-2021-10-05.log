@@ -1,0 +1,315 @@
+CRITICAL - 2021-10-05 06:57:43 --> syntax error, unexpected 'if' (T_IF)
+#0 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(384): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\alaragon\www\site\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2021-10-05 06:58:20 --> syntax error, unexpected 'if' (T_IF)
+#0 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(384): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\alaragon\www\site\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2021-10-05 06:58:45 --> syntax error, unexpected '$defaultUserGroup' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(274): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\alaragon\\www...')
+#1 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Myth\\Auth\\Confi...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Myth\\Auth\\Confi...')
+#3 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Config\Factories.php(114): spl_autoload_call('Myth\\Auth\\Confi...')
+#4 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Common.php(225): CodeIgniter\Config\Factories::__callStatic('config', Array)
+#5 C:\alaragon\www\site\vendor\myth\auth\src\Config\Services.php(24): config('Auth')
+#6 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Config\BaseService.php(100): Myth\Auth\Config\Services::authentication('local', NULL, NULL, false)
+#7 C:\alaragon\www\site\vendor\myth\auth\src\Config\Services.php(20): CodeIgniter\Config\BaseService::getSharedInstance('authentication', 'local', NULL, NULL)
+#8 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Config\BaseService.php(171): Myth\Auth\Config\Services::authentication()
+#9 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Common.php(1030): CodeIgniter\Config\BaseService::__callStatic('authentication', Array)
+#10 C:\alaragon\www\site\vendor\myth\auth\src\Collectors\Auth.php(86): service('authentication')
+#11 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Debug\Toolbar\Collectors\BaseCollector.php(275): Myth\Auth\Collectors\Auth->display()
+#12 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Debug\Toolbar.php(101): CodeIgniter\Debug\Toolbar\Collectors\BaseCollector->getAsArray()
+#13 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Debug\Toolbar.php(314): CodeIgniter\Debug\Toolbar->run(1633435124.9966, 0.0133, Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+#14 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Filters\DebugToolbar.php(51): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+#15 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Filters\Filters.php(207): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), NULL)
+#16 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(449): CodeIgniter\Filters\Filters->run('/', 'after')
+#17 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#18 C:\alaragon\www\site\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#19 {main}
+CRITICAL - 2021-10-05 07:00:53 --> syntax error, unexpected '$defaultUserGroup' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(274): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\alaragon\\www...')
+#1 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Myth\\Auth\\Confi...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Myth\\Auth\\Confi...')
+#3 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Config\Factories.php(114): spl_autoload_call('Myth\\Auth\\Confi...')
+#4 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Common.php(225): CodeIgniter\Config\Factories::__callStatic('config', Array)
+#5 C:\alaragon\www\site\vendor\myth\auth\src\Config\Services.php(24): config('Auth')
+#6 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Config\BaseService.php(100): Myth\Auth\Config\Services::authentication('local', NULL, NULL, false)
+#7 C:\alaragon\www\site\vendor\myth\auth\src\Config\Services.php(20): CodeIgniter\Config\BaseService::getSharedInstance('authentication', 'local', NULL, NULL)
+#8 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Config\BaseService.php(171): Myth\Auth\Config\Services::authentication()
+#9 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Common.php(1030): CodeIgniter\Config\BaseService::__callStatic('authentication', Array)
+#10 C:\alaragon\www\site\vendor\myth\auth\src\Collectors\Auth.php(86): service('authentication')
+#11 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Debug\Toolbar\Collectors\BaseCollector.php(275): Myth\Auth\Collectors\Auth->display()
+#12 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Debug\Toolbar.php(101): CodeIgniter\Debug\Toolbar\Collectors\BaseCollector->getAsArray()
+#13 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Debug\Toolbar.php(314): CodeIgniter\Debug\Toolbar->run(1633435253.1032, 0.0184, Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+#14 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Filters\DebugToolbar.php(51): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+#15 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Filters\Filters.php(207): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), NULL)
+#16 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(449): CodeIgniter\Filters\Filters->run('/', 'after')
+#17 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#18 C:\alaragon\www\site\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#19 {main}
+CRITICAL - 2021-10-05 07:12:06 --> Declaration of Myth\Auth\Filters\RoleFilter::after(CodeIgniter\HTTP\RequestInterface $request, CodeIgniter\HTTP\ResponseInterface $response) must be compatible with CodeIgniter\Filters\FilterInterface::after(CodeIgniter\HTTP\RequestInterface $request, CodeIgniter\HTTP\ResponseInterface $response, $arguments = NULL)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-10-05 07:13:17 --> Cannot declare class App\Controllers\Admin\Inicio, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-10-05 07:14:10 --> Cannot declare class App\Controllers\Admin\Inicio, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-10-05 07:14:35 --> Cannot declare class App\Controllers\Admin\Inicio, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-10-05 07:16:22 --> Cannot declare class App\Controllers\Admin\Inicio, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-10-05 07:19:09 --> Cannot declare class App\Controllers\Admin\Inicio, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-10-05 07:20:36 --> Cannot declare class App\Controllers\Admin\Inicio, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-10-05 07:23:27 --> Cannot declare class App\Controllers\Admin\Painel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-10-05 07:23:42 --> Cannot declare class App\Controllers\Painel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-10-05 07:24:07 --> Cannot declare class App\Controllers\Admin\Painel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-10-05 07:24:48 --> Cannot declare class App\Controllers\Admin\Painel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-10-05 07:25:26 --> Cannot declare class App\Controllers\Admin\Painel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-10-05 07:25:41 --> Cannot declare class App\Controllers\Admin\Painel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-10-05 07:25:42 --> Cannot declare class App\Controllers\Admin\Painel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-10-05 07:26:19 --> Cannot declare class App\http\Controllers\Admin\Painel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-10-05 07:26:51 --> Cannot declare class App\Controllers\Admin\Painel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-10-05 07:38:08 --> Cannot declare class App\Controllers\Admin\Painel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-10-05 07:38:46 --> Cannot declare class App\Controllers\Admin\Painel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-10-05 07:38:48 --> Cannot declare class App\Controllers\Admin\Painel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-10-05 07:43:44 --> Cannot declare class App\Controllers\Admin\Painel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-10-05 07:44:06 --> Cannot declare class App\Controllers\Admin\Painel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-10-05 07:44:24 --> Cannot declare class App\Controllers\Admin\Painel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-10-05 07:44:38 --> syntax error, unexpected ';', expecting identifier (T_STRING)
+#0 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(274): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\alaragon\\www...')
+#1 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(892): class_exists('\\App\\Controller...', true)
+#5 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(416): CodeIgniter\CodeIgniter->startController()
+#6 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\alaragon\www\site\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-05 07:44:46 --> Cannot declare class App\Controllers\Painel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-10-05 07:45:02 --> syntax error, unexpected ';', expecting identifier (T_STRING)
+#0 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(274): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\alaragon\\www...')
+#1 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(892): class_exists('\\App\\Controller...', true)
+#5 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(416): CodeIgniter\CodeIgniter->startController()
+#6 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\alaragon\www\site\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-05 07:45:11 --> syntax error, unexpected ';', expecting identifier (T_STRING)
+#0 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(274): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\alaragon\\www...')
+#1 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(892): class_exists('\\App\\Controller...', true)
+#5 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(416): CodeIgniter\CodeIgniter->startController()
+#6 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\alaragon\www\site\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-05 07:45:23 --> Cannot declare class App\Controllers\Admin\Painel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-10-05 07:45:59 --> Cannot declare class App\Controllers\Admin\painel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-10-05 07:46:07 --> Cannot declare class App\Controllers\Admin\xuxa, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-10-05 07:46:58 --> Cannot declare class App\Controllers\Admin\Painel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-10-05 07:56:11 --> Cannot declare class App\Controllers\Admin\Painel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-10-05 09:02:35 --> syntax error, unexpected '}', expecting end of file
+#0 C:\alaragon\www\site\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\alaragon\www\site\vendor\codeigniter4\framework\system\View\View.php(236): CodeIgniter\View\View->render('admin/template/...', Array, true)
+#2 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('admin/painel/in...', Array, true)
+#3 C:\alaragon\www\site\app\Controllers\Admin\Painel.php(12): view('admin/painel/in...')
+#4 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Admin\Painel->index()
+#5 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Painel))
+#6 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\alaragon\www\site\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-05 09:02:49 --> Call to undefined function in_groups()
+#0 C:\alaragon\www\site\vendor\codeigniter4\framework\system\View\View.php(220): include()
+#1 C:\alaragon\www\site\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\alaragon\www\site\vendor\codeigniter4\framework\system\View\View.php(236): CodeIgniter\View\View->render('admin/template/...', Array, true)
+#3 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('admin/painel/in...', Array, true)
+#4 C:\alaragon\www\site\app\Controllers\Admin\Painel.php(12): view('admin/painel/in...')
+#5 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Admin\Painel->index()
+#6 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Painel))
+#7 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\alaragon\www\site\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-05 10:34:00 --> Undefined variable: user
+#0 C:\alaragon\www\site\app\Views\admin\painel\index.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\alaragon\\www...', 7, Array)
+#1 C:\alaragon\www\site\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\alaragon\\www...')
+#2 C:\alaragon\www\site\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('admin/painel/in...', Array, true)
+#4 C:\alaragon\www\site\app\Controllers\Admin\Painel.php(14): view('admin/painel/in...')
+#5 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Admin\Painel->index()
+#6 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Painel))
+#7 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\alaragon\www\site\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-05 11:18:13 --> Undefined property: App\Controllers\Admin\Usuario::$ionAuth
+#0 C:\alaragon\www\site\app\Controllers\Admin\Usuario.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\alaragon\\www...', 32, Array)
+#1 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Admin\Usuario->core()
+#2 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuario))
+#3 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-05 11:19:13 --> Undefined variable: model
+#0 C:\alaragon\www\site\app\Controllers\Admin\Usuario.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\alaragon\\www...', 31, Array)
+#1 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Admin\Usuario->core()
+#2 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuario))
+#3 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-05 11:37:29 --> Call to undefined function get_instance()
+#0 C:\alaragon\www\site\app\Controllers\Admin\Usuario.php(33): setMsg('msg', 'Dados alterados...', 'sucesso')
+#1 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Admin\Usuario->core()
+#2 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuario))
+#3 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-05 12:04:09 --> syntax error, unexpected '$link_retorno' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('admin/receita')
+#1 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('admin/receita')
+#2 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(384): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-05 12:04:16 --> syntax error, unexpected '$link_retorno' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('admin/receita')
+#1 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('admin/receita')
+#2 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(384): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-05 12:05:31 --> Arquivo inválido: admin/receita/index.php
+#0 C:\alaragon\www\site\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/receita/i...')
+#1 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('admin/receita/i...', Array, true)
+#2 C:\alaragon\www\site\app\Controllers\Admin\Receita.php(13): view('admin/receita/i...', Array)
+#3 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Admin\Receita->index()
+#4 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Receita))
+#5 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\alaragon\www\site\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-10-05 13:09:06 --> syntax error, unexpected '$link_retorno' (T_VARIABLE), expecting ')'
+#0 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('admin/receita')
+#1 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('admin/receita')
+#2 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(384): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-05 13:09:41 --> Undefined variable: link_retorno
+#0 C:\alaragon\www\site\app\Controllers\Admin\Receita.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\alaragon\\www...', 14, Array)
+#1 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Admin\Receita->index()
+#2 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Receita))
+#3 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-05 13:10:15 --> Undefined variable: link_retorno
+#0 C:\alaragon\www\site\app\Controllers\Admin\Receita.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\alaragon\\www...', 15, Array)
+#1 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Admin\Receita->index()
+#2 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Receita))
+#3 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-05 13:10:45 --> Undefined variable: link_retorno
+#0 C:\alaragon\www\site\app\Controllers\Admin\Receita.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\alaragon\\www...', 12, Array)
+#1 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Admin\Receita->index()
+#2 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Receita))
+#3 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-10-05 13:26:30 --> mysqli_sql_exception: Unknown column 'doenca' in 'field list' in C:\alaragon\www\site\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `re...')
+#1 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2265): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\alaragon\www\site\vendor\codeigniter4\framework\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\alaragon\www\site\vendor\codeigniter4\framework\system\BaseModel.php(667): CodeIgniter\Model->insert(Array, false)
+#8 C:\alaragon\www\site\app\Controllers\Admin\Receita.php(44): CodeIgniter\BaseModel->save(Array)
+#9 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Admin\Receita->core()
+#10 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Receita))
+#11 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\alaragon\www\site\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-10-05 13:26:30 --> Unknown column 'doenca' in 'field list'
+#0 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `re...')
+#1 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2265): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\alaragon\www\site\vendor\codeigniter4\framework\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\alaragon\www\site\vendor\codeigniter4\framework\system\BaseModel.php(667): CodeIgniter\Model->insert(Array, false)
+#8 C:\alaragon\www\site\app\Controllers\Admin\Receita.php(44): CodeIgniter\BaseModel->save(Array)
+#9 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Admin\Receita->core()
+#10 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Receita))
+#11 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\alaragon\www\site\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-10-05 13:27:19 --> Undefined variable: link_retorno
+#0 C:\alaragon\www\site\app\Controllers\Admin\Receita.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\alaragon\\www...', 47, Array)
+#1 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Admin\Receita->core()
+#2 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Receita))
+#3 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-05 13:31:08 --> Use of undefined constant Y - assumed 'Y' (this will throw an Error in a future version of PHP)
+#0 C:\alaragon\www\site\app\Controllers\Admin\Receita.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\alaragon\\www...', 37, Array)
+#1 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Admin\Receita->core()
+#2 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Receita))
+#3 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}

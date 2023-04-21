@@ -1,0 +1,280 @@
+CRITICAL - 2021-10-15 05:49:15 --> Call to undefined method App\Models\Front\siteConfig_model::getLinks
+#0 C:\alaragon\www\site\app\Controllers\Front\Pagina.php(25): CodeIgniter\Model->__call('getLinks', Array)
+#1 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Front\Pagina->index()
+#2 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Pagina))
+#3 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-15 06:07:36 --> Call to undefined method App\Models\Front\siteConfig_model::getLinks
+#0 C:\alaragon\www\site\app\Controllers\Front\Pagina.php(25): CodeIgniter\Model->__call('getLinks', Array)
+#1 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Front\Pagina->index()
+#2 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Pagina))
+#3 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-15 06:12:54 --> Call to undefined method App\Models\Front\siteConfig_model::getLinks
+#0 C:\alaragon\www\site\app\Controllers\Front\Pagina.php(25): CodeIgniter\Model->__call('getLinks', Array)
+#1 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Front\Pagina->index()
+#2 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Pagina))
+#3 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-15 06:14:24 --> Call to undefined method App\Models\Front\Pagina_model::getnoticiaMetaLink
+#0 C:\alaragon\www\site\app\Controllers\Front\Pagina.php(25): CodeIgniter\Model->__call('getnoticiaMetaL...', Array)
+#1 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Front\Pagina->index()
+#2 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Pagina))
+#3 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-15 06:14:49 --> Call to undefined method App\Models\Front\Pagina_model::getnoticiaMetaLink
+#0 C:\alaragon\www\site\app\Controllers\Front\Pagina.php(25): CodeIgniter\Model->__call('getnoticiaMetaL...', Array)
+#1 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Front\Pagina->index()
+#2 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Pagina))
+#3 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-15 06:17:00 --> Call to undefined method App\Models\Front\Pagina_model::getnoticiaMetaLink
+#0 C:\alaragon\www\site\app\Controllers\Front\Pagina.php(25): CodeIgniter\Model->__call('getnoticiaMetaL...', Array)
+#1 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Front\Pagina->index()
+#2 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Pagina))
+#3 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-15 06:17:12 --> Call to undefined method App\Models\Front\Pagina_model::addVisitas
+#0 C:\alaragon\www\site\app\Controllers\Front\Pagina.php(33): CodeIgniter\Model->__call('addVisitas', Array)
+#1 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Front\Pagina->index()
+#2 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Pagina))
+#3 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-15 06:17:26 --> Trying to get property 'titulo' of non-object
+#0 C:\alaragon\www\site\app\Views\front\pagina\index.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\alaragon\\www...', 18, Array)
+#1 C:\alaragon\www\site\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\alaragon\\www...')
+#2 C:\alaragon\www\site\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('front/pagina/in...', Array, true)
+#4 C:\alaragon\www\site\app\Controllers\Front\Pagina.php(33): view('front/pagina/in...', Array)
+#5 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Front\Pagina->index()
+#6 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Pagina))
+#7 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\alaragon\www\site\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-15 06:18:56 --> Trying to get property 'titulo' of non-object
+#0 C:\alaragon\www\site\app\Views\front\pagina\index.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\alaragon\\www...', 18, Array)
+#1 C:\alaragon\www\site\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\alaragon\\www...')
+#2 C:\alaragon\www\site\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('front/pagina/in...', Array, true)
+#4 C:\alaragon\www\site\app\Controllers\Front\Pagina.php(33): view('front/pagina/in...', Array)
+#5 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Front\Pagina->index()
+#6 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Pagina))
+#7 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\alaragon\www\site\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-15 06:19:22 --> Trying to get property 'titulo' of non-object
+#0 C:\alaragon\www\site\app\Views\front\pagina\index.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\alaragon\\www...', 18, Array)
+#1 C:\alaragon\www\site\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\alaragon\\www...')
+#2 C:\alaragon\www\site\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('front/pagina/in...', Array, true)
+#4 C:\alaragon\www\site\app\Controllers\Front\Pagina.php(36): view('front/pagina/in...', Array)
+#5 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Front\Pagina->index()
+#6 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Pagina))
+#7 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\alaragon\www\site\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-15 06:19:55 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$titulo
+#0 C:\alaragon\www\site\app\Views\front\pagina\index.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\alaragon\\www...', 18, Array)
+#1 C:\alaragon\www\site\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\alaragon\\www...')
+#2 C:\alaragon\www\site\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('front/pagina/in...', Array, true)
+#4 C:\alaragon\www\site\app\Controllers\Front\Pagina.php(33): view('front/pagina/in...', Array)
+#5 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Front\Pagina->index()
+#6 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Pagina))
+#7 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\alaragon\www\site\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-15 06:20:05 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$titulo
+#0 C:\alaragon\www\site\app\Views\front\pagina\index.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\alaragon\\www...', 18, Array)
+#1 C:\alaragon\www\site\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\alaragon\\www...')
+#2 C:\alaragon\www\site\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('front/pagina/in...', Array, true)
+#4 C:\alaragon\www\site\app\Controllers\Front\Pagina.php(36): view('front/pagina/in...', Array)
+#5 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Front\Pagina->index()
+#6 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Pagina))
+#7 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\alaragon\www\site\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-15 06:20:49 --> Trying to get property 'imagem' of non-object
+#0 C:\alaragon\www\site\app\Views\front\pagina\info.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\alaragon\\www...', 6, Array)
+#1 C:\alaragon\www\site\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\alaragon\\www...')
+#2 C:\alaragon\www\site\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('front/pagina/in...', Array, true)
+#4 C:\alaragon\www\site\app\Controllers\Front\Pagina.php(33): view('front/pagina/in...', Array)
+#5 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Front\Pagina->index()
+#6 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Pagina))
+#7 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\alaragon\www\site\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-15 06:21:32 --> Trying to get property 'imagem' of non-object
+#0 C:\alaragon\www\site\app\Views\front\pagina\info.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\alaragon\\www...', 6, Array)
+#1 C:\alaragon\www\site\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\alaragon\\www...')
+#2 C:\alaragon\www\site\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('front/pagina/in...', Array, true)
+#4 C:\alaragon\www\site\app\Controllers\Front\Pagina.php(33): view('front/pagina/in...', Array)
+#5 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Front\Pagina->index()
+#6 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Pagina))
+#7 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\alaragon\www\site\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-15 06:21:42 --> Trying to get property 'file' of non-object
+#0 C:\alaragon\www\site\app\Views\front\pagina\info.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\alaragon\\www...', 6, Array)
+#1 C:\alaragon\www\site\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\alaragon\\www...')
+#2 C:\alaragon\www\site\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('front/pagina/in...', Array, true)
+#4 C:\alaragon\www\site\app\Controllers\Front\Pagina.php(33): view('front/pagina/in...', Array)
+#5 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Front\Pagina->index()
+#6 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Pagina))
+#7 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\alaragon\www\site\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-15 06:21:55 --> Trying to get property 'titulo' of non-object
+#0 C:\alaragon\www\site\app\Views\front\pagina\info.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\alaragon\\www...', 11, Array)
+#1 C:\alaragon\www\site\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\alaragon\\www...')
+#2 C:\alaragon\www\site\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('front/pagina/in...', Array, true)
+#4 C:\alaragon\www\site\app\Controllers\Front\Pagina.php(33): view('front/pagina/in...', Array)
+#5 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Front\Pagina->index()
+#6 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Pagina))
+#7 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\alaragon\www\site\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-15 06:22:12 --> Trying to get property 'titulo' of non-object
+#0 C:\alaragon\www\site\app\Views\front\pagina\info.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\alaragon\\www...', 11, Array)
+#1 C:\alaragon\www\site\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\alaragon\\www...')
+#2 C:\alaragon\www\site\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('front/pagina/in...', Array, true)
+#4 C:\alaragon\www\site\app\Controllers\Front\Pagina.php(33): view('front/pagina/in...', Array)
+#5 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Front\Pagina->index()
+#6 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Pagina))
+#7 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\alaragon\www\site\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-15 06:22:20 --> Call to a member function getFotosGalerias() on null
+#0 C:\alaragon\www\site\vendor\codeigniter4\framework\system\View\View.php(220): include()
+#1 C:\alaragon\www\site\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('front/pagina/in...', Array, true)
+#3 C:\alaragon\www\site\app\Controllers\Front\Pagina.php(33): view('front/pagina/in...', Array)
+#4 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Front\Pagina->index()
+#5 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Pagina))
+#6 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\alaragon\www\site\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-15 06:29:28 --> Undefined variable: dados
+#0 C:\alaragon\www\site\app\Views\front\site\index.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\alaragon\\www...', 15, Array)
+#1 C:\alaragon\www\site\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\alaragon\\www...')
+#2 C:\alaragon\www\site\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\alaragon\www\site\vendor\codeigniter4\framework\system\View\View.php(236): CodeIgniter\View\View->render('front/site/inde...', Array, true)
+#4 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Myth\\Auth\\Views...', Array, true)
+#5 C:\alaragon\www\site\vendor\myth\auth\src\Controllers\AuthController.php(54): view('Myth\\Auth\\Views...', Array)
+#6 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(935): Myth\Auth\Controllers\AuthController->login()
+#7 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#8 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\alaragon\www\site\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-10-15 06:31:50 --> Arquivo inválido: App\Views\Front\Login\index.php
+#0 C:\alaragon\www\site\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Views\\Front...')
+#1 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('App\\Views\\Front...', Array, true)
+#2 C:\alaragon\www\site\vendor\myth\auth\src\Controllers\AuthController.php(54): view('App\\Views\\Front...', Array)
+#3 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(935): Myth\Auth\Controllers\AuthController->login()
+#4 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#5 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\alaragon\www\site\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-10-15 06:32:50 --> Undefined variable: dados
+#0 C:\alaragon\www\site\app\Views\front\site\index.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\alaragon\\www...', 15, Array)
+#1 C:\alaragon\www\site\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\alaragon\\www...')
+#2 C:\alaragon\www\site\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\alaragon\www\site\vendor\codeigniter4\framework\system\View\View.php(236): CodeIgniter\View\View->render('front/site/inde...', Array, true)
+#4 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('App\\Views\\Front...', Array, true)
+#5 C:\alaragon\www\site\vendor\myth\auth\src\Controllers\AuthController.php(54): view('App\\Views\\Front...', Array)
+#6 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(935): Myth\Auth\Controllers\AuthController->login()
+#7 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#8 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\alaragon\www\site\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-10-15 06:36:54 --> Undefined variable: noticia
+#0 C:\alaragon\www\site\app\Views\front\pagina\info.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\alaragon\\www...', 6, Array)
+#1 C:\alaragon\www\site\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\alaragon\\www...')
+#2 C:\alaragon\www\site\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('front/pagina/in...', Array, true)
+#4 C:\alaragon\www\site\vendor\myth\auth\src\Controllers\AuthController.php(59): view('front/pagina/in...', Array)
+#5 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(935): Myth\Auth\Controllers\AuthController->login()
+#6 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#7 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\alaragon\www\site\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-15 06:37:08 --> Undefined variable: config
+#0 C:\alaragon\www\site\app\Views\front\login\index.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\alaragon\\www...', 19, Array)
+#1 C:\alaragon\www\site\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\alaragon\\www...')
+#2 C:\alaragon\www\site\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('App\\Views\\Front...', Array, true)
+#4 C:\alaragon\www\site\vendor\myth\auth\src\Controllers\AuthController.php(60): view('App\\Views\\Front...', Array)
+#5 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(935): Myth\Auth\Controllers\AuthController->login()
+#6 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#7 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\alaragon\www\site\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-15 07:17:54 --> Undefined variable: dados
+#0 C:\alaragon\www\site\vendor\myth\auth\src\Views\layout.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\alaragon\\www...', 43, Array)
+#1 C:\alaragon\www\site\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\alaragon\\www...')
+#2 C:\alaragon\www\site\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\alaragon\www\site\vendor\codeigniter4\framework\system\View\View.php(236): CodeIgniter\View\View->render('Myth\\Auth\\Views...', Array, true)
+#4 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Myth\\Auth\\Views...', Array, true)
+#5 C:\alaragon\www\site\vendor\myth\auth\src\Controllers\AuthController.php(54): view('Myth\\Auth\\Views...', Array)
+#6 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(935): Myth\Auth\Controllers\AuthController->login()
+#7 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#8 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\alaragon\www\site\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-10-15 07:40:05 --> Trying to get property 'nome' of non-object
+#0 C:\alaragon\www\site\app\Views\admin\paginas\index.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\alaragon\\www...', 7, Array)
+#1 C:\alaragon\www\site\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\alaragon\\www...')
+#2 C:\alaragon\www\site\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('admin/paginas/i...', Array, true)
+#4 C:\alaragon\www\site\app\Controllers\Admin\paginas.php(15): view('admin/paginas/i...', Array)
+#5 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Admin\Paginas->index()
+#6 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Paginas))
+#7 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\alaragon\www\site\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-15 07:40:29 --> Trying to get property 'nome' of non-object
+#0 C:\alaragon\www\site\app\Views\admin\paginas\index.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\alaragon\\www...', 7, Array)
+#1 C:\alaragon\www\site\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\alaragon\\www...')
+#2 C:\alaragon\www\site\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('admin/paginas/i...', Array, true)
+#4 C:\alaragon\www\site\app\Controllers\Admin\paginas.php(15): view('admin/paginas/i...', Array)
+#5 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Admin\Paginas->index()
+#6 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Paginas))
+#7 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\alaragon\www\site\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-15 07:40:32 --> Trying to get property 'nome' of non-object
+#0 C:\alaragon\www\site\app\Views\admin\paginas\index.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\alaragon\\www...', 7, Array)
+#1 C:\alaragon\www\site\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\alaragon\\www...')
+#2 C:\alaragon\www\site\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('admin/paginas/i...', Array, true)
+#4 C:\alaragon\www\site\app\Controllers\Admin\paginas.php(15): view('admin/paginas/i...', Array)
+#5 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Admin\Paginas->index()
+#6 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Paginas))
+#7 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\alaragon\www\site\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-15 08:25:04 --> Trying to get property 'nome' of non-object
+#0 C:\alaragon\www\site\app\Views\admin\pedidos\index.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\alaragon\\www...', 7, Array)
+#1 C:\alaragon\www\site\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\alaragon\\www...')
+#2 C:\alaragon\www\site\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('admin/pedidos/i...', Array, true)
+#4 C:\alaragon\www\site\app\Controllers\Admin\Pedidos.php(17): view('admin/pedidos/i...', Array)
+#5 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Admin\Pedidos->index()
+#6 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pedidos))
+#7 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\alaragon\www\site\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}

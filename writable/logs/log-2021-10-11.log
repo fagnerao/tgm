@@ -1,0 +1,302 @@
+ERROR - 2021-10-11 07:45:19 --> mysqli_sql_exception: Unknown column 'nome' in 'order clause' in C:\alaragon\www\site\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\alaragon\www\site\vendor\codeigniter4\framework\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\alaragon\www\site\app\Models\Admin\Pedidos_model.php(34): CodeIgniter\BaseModel->findAll()
+#7 C:\alaragon\www\site\app\Controllers\Admin\Pedidos.php(43): App\Models\Admin\Pedidos_model->getPedido(NULL)
+#8 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Admin\Pedidos->pagamento()
+#9 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pedidos))
+#10 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\alaragon\www\site\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-10-11 07:45:19 --> Unknown column 'nome' in 'order clause'
+#0 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\alaragon\www\site\vendor\codeigniter4\framework\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\alaragon\www\site\app\Models\Admin\Pedidos_model.php(34): CodeIgniter\BaseModel->findAll()
+#7 C:\alaragon\www\site\app\Controllers\Admin\Pedidos.php(43): App\Models\Admin\Pedidos_model->getPedido(NULL)
+#8 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Admin\Pedidos->pagamento()
+#9 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pedidos))
+#10 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\alaragon\www\site\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-10-11 07:52:45 --> Array to string conversion
+#0 C:\alaragon\www\site\app\Controllers\Admin\Pedidos.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\alaragon\\www...', 44, Array)
+#1 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Admin\Pedidos->pagamento()
+#2 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pedidos))
+#3 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-11 07:53:48 --> Undefined variable: id
+#0 C:\alaragon\www\site\app\Controllers\Admin\Pedidos.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\alaragon\\www...', 43, Array)
+#1 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Admin\Pedidos->pagamento()
+#2 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pedidos))
+#3 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-11 07:53:52 --> Undefined variable: id
+#0 C:\alaragon\www\site\app\Controllers\Admin\Pedidos.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\alaragon\\www...', 43, Array)
+#1 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Admin\Pedidos->pagamento()
+#2 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pedidos))
+#3 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-11 07:53:57 --> Undefined variable: id
+#0 C:\alaragon\www\site\app\Controllers\Admin\Pedidos.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\alaragon\\www...', 43, Array)
+#1 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Admin\Pedidos->pagamento()
+#2 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pedidos))
+#3 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-11 07:57:04 --> Segmento do URI da Requisição está fora do intervalo: 1
+#0 C:\alaragon\www\site\vendor\codeigniter4\framework\system\HTTP\URI.php(512): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(1)
+#1 C:\alaragon\www\site\app\Controllers\Admin\Pedidos.php(44): CodeIgniter\HTTP\URI->getSegment(1)
+#2 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Admin\Pedidos->pagamento()
+#3 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pedidos))
+#4 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\alaragon\www\site\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-10-11 07:57:09 --> Segmento do URI da Requisição está fora do intervalo: 1
+#0 C:\alaragon\www\site\vendor\codeigniter4\framework\system\HTTP\URI.php(512): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(1)
+#1 C:\alaragon\www\site\app\Controllers\Admin\Pedidos.php(44): CodeIgniter\HTTP\URI->getSegment(1)
+#2 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Admin\Pedidos->pagamento()
+#3 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pedidos))
+#4 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\alaragon\www\site\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-10-11 08:02:01 --> Undefined variable: id
+#0 C:\alaragon\www\site\app\Controllers\Admin\Pedidos.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\alaragon\\www...', 45, Array)
+#1 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Admin\Pedidos->pagamento()
+#2 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pedidos))
+#3 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-11 08:03:11 --> Undefined variable: pedidos
+#0 C:\alaragon\www\site\app\Views\admin\pedidos\pagamento.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\alaragon\\www...', 38, Array)
+#1 C:\alaragon\www\site\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\alaragon\\www...')
+#2 C:\alaragon\www\site\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('admin/pedidos/p...', Array, true)
+#4 C:\alaragon\www\site\app\Controllers\Admin\Pedidos.php(47): view('admin/pedidos/p...', Array)
+#5 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Admin\Pedidos->pagamento()
+#6 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pedidos))
+#7 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\alaragon\www\site\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-11 08:03:22 --> Trying to get property 'id' of non-object
+#0 C:\alaragon\www\site\app\Views\admin\pedidos\pagamento.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\alaragon\\www...', 40, Array)
+#1 C:\alaragon\www\site\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\alaragon\\www...')
+#2 C:\alaragon\www\site\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('admin/pedidos/p...', Array, true)
+#4 C:\alaragon\www\site\app\Controllers\Admin\Pedidos.php(47): view('admin/pedidos/p...', Array)
+#5 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Admin\Pedidos->pagamento()
+#6 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pedidos))
+#7 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\alaragon\www\site\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-11 08:03:55 --> Trying to get property 'id' of non-object
+#0 C:\alaragon\www\site\app\Views\admin\pedidos\pagamento.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\alaragon\\www...', 40, Array)
+#1 C:\alaragon\www\site\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\alaragon\\www...')
+#2 C:\alaragon\www\site\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('admin/pedidos/p...', Array, true)
+#4 C:\alaragon\www\site\app\Controllers\Admin\Pedidos.php(48): view('admin/pedidos/p...', Array)
+#5 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Admin\Pedidos->pagamento()
+#6 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pedidos))
+#7 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\alaragon\www\site\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-11 08:06:23 --> Undefined variable: p
+#0 C:\alaragon\www\site\app\Views\admin\pedidos\pagamento.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\alaragon\\www...', 45, Array)
+#1 C:\alaragon\www\site\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\alaragon\\www...')
+#2 C:\alaragon\www\site\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('admin/pedidos/p...', Array, true)
+#4 C:\alaragon\www\site\app\Controllers\Admin\Pedidos.php(48): view('admin/pedidos/p...', Array)
+#5 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Admin\Pedidos->pagamento()
+#6 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pedidos))
+#7 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\alaragon\www\site\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-11 08:38:57 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+#0 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(274): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\alaragon\\www...')
+#1 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Admi...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Admi...')
+#3 C:\alaragon\www\site\app\Controllers\Admin\Pedidos.php(41): spl_autoload_call('App\\Models\\Admi...')
+#4 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Admin\Pedidos->pagamento()
+#5 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pedidos))
+#6 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\alaragon\www\site\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-11 08:39:05 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::first()
+#0 C:\alaragon\www\site\app\Controllers\Admin\Pedidos.php(45): App\Models\Admin\Pedidos_model->getPedido('8')
+#1 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Admin\Pedidos->pagamento()
+#2 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pedidos))
+#3 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-10-11 08:39:14 --> mysqli_sql_exception: Column 'id' in where clause is ambiguous in C:\alaragon\www\site\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `pedidos...')
+#1 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pedidos...')
+#2 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pedidos...')
+#3 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `pedidos...', Array, false)
+#4 C:\alaragon\www\site\app\Models\Admin\Pedidos_model.php(41): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\alaragon\www\site\app\Controllers\Admin\Pedidos.php(45): App\Models\Admin\Pedidos_model->getPedido('8')
+#6 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Admin\Pedidos->pagamento()
+#7 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pedidos))
+#8 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\alaragon\www\site\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-10-11 08:39:14 --> Column 'id' in where clause is ambiguous
+#0 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `pedidos...')
+#1 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pedidos...')
+#2 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pedidos...')
+#3 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `pedidos...', Array, false)
+#4 C:\alaragon\www\site\app\Models\Admin\Pedidos_model.php(41): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\alaragon\www\site\app\Controllers\Admin\Pedidos.php(45): App\Models\Admin\Pedidos_model->getPedido('8')
+#6 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Admin\Pedidos->pagamento()
+#7 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pedidos))
+#8 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\alaragon\www\site\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-10-11 08:39:44 --> mysqli_sql_exception: Unknown column 'users*' in 'field list' in C:\alaragon\www\site\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `pedidos...')
+#1 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pedidos...')
+#2 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pedidos...')
+#3 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `pedidos...', Array, false)
+#4 C:\alaragon\www\site\app\Models\Admin\Pedidos_model.php(41): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\alaragon\www\site\app\Controllers\Admin\Pedidos.php(45): App\Models\Admin\Pedidos_model->getPedido('8')
+#6 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Admin\Pedidos->pagamento()
+#7 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pedidos))
+#8 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\alaragon\www\site\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-10-11 08:39:44 --> Unknown column 'users*' in 'field list'
+#0 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `pedidos...')
+#1 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pedidos...')
+#2 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pedidos...')
+#3 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `pedidos...', Array, false)
+#4 C:\alaragon\www\site\app\Models\Admin\Pedidos_model.php(41): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\alaragon\www\site\app\Controllers\Admin\Pedidos.php(45): App\Models\Admin\Pedidos_model->getPedido('8')
+#6 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Admin\Pedidos->pagamento()
+#7 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pedidos))
+#8 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\alaragon\www\site\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-10-11 08:41:16 --> Trying to get property 'tipo' of non-object
+#0 C:\alaragon\www\site\app\Views\admin\pedidos\pagamento.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\alaragon\\www...', 29, Array)
+#1 C:\alaragon\www\site\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\alaragon\\www...')
+#2 C:\alaragon\www\site\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('admin/pedidos/p...', Array, true)
+#4 C:\alaragon\www\site\app\Controllers\Admin\Pedidos.php(48): view('admin/pedidos/p...', Array)
+#5 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Admin\Pedidos->pagamento()
+#6 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pedidos))
+#7 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\alaragon\www\site\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-11 08:42:03 --> Trying to get property 'tipo' of non-object
+#0 C:\alaragon\www\site\app\Views\admin\pedidos\pagamento.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\alaragon\\www...', 29, Array)
+#1 C:\alaragon\www\site\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\alaragon\\www...')
+#2 C:\alaragon\www\site\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('admin/pedidos/p...', Array, true)
+#4 C:\alaragon\www\site\app\Controllers\Admin\Pedidos.php(48): view('admin/pedidos/p...', Array)
+#5 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Admin\Pedidos->pagamento()
+#6 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pedidos))
+#7 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\alaragon\www\site\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-11 08:42:27 --> Trying to get property 'id' of non-object
+#0 C:\alaragon\www\site\app\Views\admin\pedidos\pagamento.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\alaragon\\www...', 31, Array)
+#1 C:\alaragon\www\site\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\alaragon\\www...')
+#2 C:\alaragon\www\site\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('admin/pedidos/p...', Array, true)
+#4 C:\alaragon\www\site\app\Controllers\Admin\Pedidos.php(48): view('admin/pedidos/p...', Array)
+#5 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Admin\Pedidos->pagamento()
+#6 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pedidos))
+#7 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\alaragon\www\site\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-11 10:50:12 --> Não há dados para insert.
+#0 C:\alaragon\www\site\vendor\codeigniter4\framework\system\BaseModel.php(735): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, false)
+#2 C:\alaragon\www\site\vendor\codeigniter4\framework\system\BaseModel.php(667): CodeIgniter\Model->insert(Array, false)
+#3 C:\alaragon\www\site\app\Controllers\Admin\Pedidos.php(136): CodeIgniter\BaseModel->save(Array)
+#4 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Admin\Pedidos->pgStatus()
+#5 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pedidos))
+#6 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\alaragon\www\site\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-11 11:13:45 --> Undefined property: stdClass::$fone
+#0 C:\alaragon\www\site\app\Views\admin\pedidos\pagamento.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\alaragon\\www...', 40, Array)
+#1 C:\alaragon\www\site\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\alaragon\\www...')
+#2 C:\alaragon\www\site\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('admin/pedidos/p...', Array, true)
+#4 C:\alaragon\www\site\app\Controllers\Admin\Pedidos.php(48): view('admin/pedidos/p...', Array)
+#5 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Admin\Pedidos->pagamento()
+#6 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pedidos))
+#7 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\alaragon\www\site\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-11 11:27:44 --> Undefined variable: id
+#0 C:\alaragon\www\site\app\Controllers\Admin\Pedidos.php(137): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\alaragon\\www...', 137, Array)
+#1 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Admin\Pedidos->pgStatus()
+#2 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pedidos))
+#3 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-10-11 11:28:35 --> mysqli_sql_exception: Unknown column '$payment_method' in 'field list' in C:\alaragon\www\site\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('UPDATE `pedidos...')
+#1 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `pedidos...')
+#2 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `pedidos...')
+#3 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2472): CodeIgniter\Database\BaseConnection->query('UPDATE `pedidos...', Array, false)
+#4 C:\alaragon\www\site\app\Controllers\Admin\Pedidos.php(138): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Admin\Pedidos->pgStatus()
+#6 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pedidos))
+#7 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\alaragon\www\site\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-11 11:28:35 --> Unknown column '$payment_method' in 'field list'
+#0 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('UPDATE `pedidos...')
+#1 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `pedidos...')
+#2 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `pedidos...')
+#3 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2472): CodeIgniter\Database\BaseConnection->query('UPDATE `pedidos...', Array, false)
+#4 C:\alaragon\www\site\app\Controllers\Admin\Pedidos.php(138): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Admin\Pedidos->pgStatus()
+#6 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pedidos))
+#7 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\alaragon\www\site\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-11 11:36:27 --> Undefined variable: valor
+#0 C:\alaragon\www\site\app\Controllers\Admin\Pedidos.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\alaragon\\www...', 141, Array)
+#1 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Admin\Pedidos->pgStatus()
+#2 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pedidos))
+#3 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\alaragon\www\site\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-11 11:50:58 --> Undefined offset: 0
+#0 C:\alaragon\www\site\app\Views\admin\pedidos\pagamento.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\alaragon\\www...', 29, Array)
+#1 C:\alaragon\www\site\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\alaragon\\www...')
+#2 C:\alaragon\www\site\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('admin/pedidos/p...', Array, true)
+#4 C:\alaragon\www\site\app\Controllers\Admin\Pedidos.php(48): view('admin/pedidos/p...', Array)
+#5 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Admin\Pedidos->pagamento()
+#6 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pedidos))
+#7 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\alaragon\www\site\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-11 12:02:22 --> syntax error, unexpected '" class="' (T_CONSTANT_ENCAPSED_STRING), expecting ';' or ','
+#0 C:\alaragon\www\site\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\alaragon\www\site\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('admin/pedidos/i...', Array, true)
+#2 C:\alaragon\www\site\app\Controllers\Admin\Pedidos.php(17): view('admin/pedidos/i...', Array)
+#3 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Admin\Pedidos->index()
+#4 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pedidos))
+#5 C:\alaragon\www\site\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\alaragon\www\site\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}

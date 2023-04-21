@@ -15,11 +15,11 @@
                             </div>
                             <div class="col-sm-3">
                                 <label for="inputFirstname">Início</label>
-                                <input type="text" value="" class="form-control input_data_hora" name="start"  required>
+                                <input type="datetime-local" value="" class="form-control" name="start"  required>
                             </div>
                             <div class="col-sm-3">
                                 <label for="inputFirstname">Fim</label>
-                                <input type="text" value="" class="form-control  input_data_hora" name="end"  required>
+                                <input type="datetime-local" value="" class="form-control " name="end"  required>
                             </div>
                           
                             <div class="col-sm-2">
